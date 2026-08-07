@@ -2,7 +2,11 @@
   "config": {
     "whatsapp": "5547999835305",
     "deliveryFee": 0,
-    "storeName": "BabyFlash"
+    "storeName": "BabyFlash",
+    "promoBanner": {
+      "active": true,
+      "text": "MEGA OFERTA: 4 Fraldas Pampers por R$ 299,99 no PIX!"
+    }
   },
   "admin": {
     "password": "admin123"
