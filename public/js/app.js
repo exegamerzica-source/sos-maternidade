@@ -468,7 +468,7 @@ function buildWhatsAppMessage(f) {
   const feeStr = deliveryFee === 0 ? 'GRÁTIS 🎁' : `R$ ${deliveryFee.toFixed(2).replace('.', ',')}`;
 
   return (
-`👶 *NOVO PEDIDO - SOS MATERNIDADE* 👶
+`👶 *NOVO PEDIDO - BABYFLASH* 👶
 --------------------------------------------------
 *Cliente:* ${f.name}
 *Endereço:* ${f.street}, ${f.number} - ${f.neighborhood}
