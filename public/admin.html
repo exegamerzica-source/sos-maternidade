@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — SOS Maternidade</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+
+    /* Sidebar */
+    .sidebar { transition: transform 0.3s ease; }
+    @media (max-width: 768px) {
+      .sidebar { position: fixed; left: 0; top: 0; bottom: 0; z-index: 40; transform: translateX(-100%); }
+      .sidebar.open { transform: translateX(0); }
+    }
+
+    /* Table */
+    table { border-collapse: collapse; }
+    thead th { position: sticky; top: 0; z-index: 1; }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed; inset: 0; z-index: 60;
+      background: rgba(0,0,0,0.55); backdrop-filter: blur(3px);
+      display: flex; align-items: center; justify-content: center; padding: 16px;
+      opacity: 0; pointer-events: none; transition: opacity 0.25s;
+    }
+    .modal-overlay.active { opacity: 1; pointer-events: all; }
+    .modal-box {
+      background: #fff; border-radius: 20px; width: 100%; max-width: 520px;
+      max-height: 92dvh; overflow-y: auto;
+      transform: scale(0.95); transition: transform 0.25s;
+    }
+    .modal-overlay.active .modal-box { transform: scale(1); }
+
+    /* Input */
+    .adm-input {
+      width: 100%; padding: 11px 14px;
+      border: 2px solid #e5e7eb; border-radius: 10px;
+      font-size: 0.9375rem; outline: none; transition: border-color 0.2s;
+      font-family: inherit;
+    }
+    .adm-input:focus { border-color: #e11d48; }
+    .adm-input.error { border-color: #ef4444; background: #fef2f2; }
+    select.adm-input { background: #fff; cursor: pointer; }
+
+    /* Bulk import modal — wider */
+    .modal-box-wide {
+      background: #fff; border-radius: 20px; width: 100%; max-width: 820px;
+      max-height: 92dvh; overflow-y: auto;
+      transform: scale(0.95); transition: transform 0.25s;
+    }
+    .modal-overlay.active .modal-box-wide { transform: scale(1); }
+
+    /* Import tabs */
+    .import-tab {
+      flex: 1; padding: 10px 8px; border-radius: 10px; border: 2px solid transparent;
+      font-size: 0.8125rem; font-weight: 700; cursor: pointer; text-align: center;
+      transition: all 0.18s; color: #6b7280; background: #f3f4f6;
+    }
+    .import-tab.active {
+      background: #fff; border-color: #e11d48; color: #e11d48;
+      box-shadow: 0 2px 8px rgba(225,29,72,0.12);
+    }
+
+    /* CSV preview table */
+    .csv-preview-table { border-collapse: collapse; width: 100%; font-size: 0.8rem; }
+    .csv-preview-table th { background: #f9fafb; color: #6b7280; font-weight: 700;
+      text-transform: uppercase; font-size: 0.7rem; letter-spacing: .04em;
+      padding: 8px 10px; border-bottom: 2px solid #e5e7eb; text-align: left; }
+    .csv-preview-table td { padding: 7px 10px; border-bottom: 1px solid #f3f4f6; color: #111827; vertical-align: middle; }
+    .csv-preview-table tr:last-child td { border-bottom: none; }
+    .csv-preview-table tr:hover td { background: #fff1f2; }
+
+    /* Row builder (multi-form tab) */
+    .row-item { display: grid; grid-template-columns: 1fr 100px 130px auto; gap: 8px; align-items: start; }
+    @media (max-width: 640px) {
+      .row-item { grid-template-columns: 1fr auto; }
+      .row-item .row-cat, .row-item .row-price { display: none; }
+    }
+    .row-remove-btn {
+      width: 34px; height: 34px; flex-shrink: 0; border-radius: 8px;
+      border: none; background: #fee2e2; color: #b91c1c;
+      font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: background 0.15s;
+    }
+    .row-remove-btn:hover { background: #fca5a5; }
+
+    /* Badge */
+    .badge-stock    { background: #dcfce7; color: #166534; }
+    .badge-nostock  { background: #fee2e2; color: #991b1b; }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+<!-- ══════════════════════════════════════════
+     LOGIN SCREEN
+════════════════════════════════════════════ -->
+<div id="login-screen" class="min-h-screen flex items-center justify-center p-4" style="background: linear-gradient(135deg, #1f2937 0%, #111827 100%);">
+  <div class="bg-white rounded-3xl shadow-2xl p-8 w-full max-w-sm">
+    <!-- Logo -->
+    <div class="text-center mb-8">
+      <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-rose-500 to-red-600 flex items-center justify-center mx-auto mb-4 shadow-lg">
+        <span class="text-3xl">🍼</span>
+      </div>
+      <h1 class="text-2xl font-black text-gray-900">SOS Maternidade</h1>
+      <p class="text-gray-400 text-sm mt-1">Painel Administrativo</p>
+    </div>
+
+    <!-- Form -->
+    <div id="login-error" class="hidden bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 mb-4 font-medium"></div>
+
+    <div class="space-y-4">
+      <div>
+        <label class="block text-xs font-bold text-gray-600 mb-1.5" for="login-password">Senha de acesso</label>
+        <input id="login-password" type="password" class="adm-input" placeholder="Digite sua senha"
+          onkeydown="if(event.key==='Enter') doLogin()" autocomplete="current-password" />
+      </div>
+      <button onclick="doLogin()" id="login-btn"
+        class="w-full bg-gradient-to-r from-rose-600 to-rose-500 text-white font-bold py-3.5 rounded-xl hover:opacity-90 active:scale-98 transition-all text-sm">
+        Entrar no Painel →
+      </button>
+    </div>
+
+    <p class="text-center text-gray-300 text-xs mt-6">
+      🔒 Acesso restrito a administradores
+    </p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     DASHBOARD
+════════════════════════════════════════════ -->
+<div id="dashboard" class="hidden min-h-screen flex">
+
+  <!-- Sidebar -->
+  <aside id="sidebar" class="sidebar w-64 bg-gray-900 text-white flex flex-col min-h-screen shadow-xl">
+    <!-- Logo -->
+    <div class="p-6 border-b border-gray-700">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-rose-500 to-red-600 flex items-center justify-center">
+          <span>🍼</span>
+        </div>
+        <div>
+          <p class="font-black text-sm">SOS Maternidade</p>
+          <p class="text-gray-400 text-[10px]">Painel Admin</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nav -->
+    <nav class="flex-1 p-4 space-y-1">
+      <button onclick="showSection('products')" id="nav-products"
+        class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left text-sm font-semibold transition-all bg-rose-600 text-white">
+        <span>📦</span> Produtos
+      </button>
+      <button onclick="showSection('config')" id="nav-config"
+        class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left text-sm font-semibold transition-all text-gray-400 hover:bg-gray-800 hover:text-white">
+        <span>⚙️</span> Configurações
+      </button>
+      <a href="/" target="_blank"
+        class="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold text-gray-400 hover:bg-gray-800 hover:text-white transition-all">
+        <span>🌐</span> Ver Loja
+      </a>
+    </nav>
+
+    <!-- Logout -->
+    <div class="p-4 border-t border-gray-700">
+      <button onclick="doLogout()"
+        class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold text-gray-400 hover:bg-red-900 hover:text-red-300 transition-all">
+        <span>🚪</span> Sair
+      </button>
+    </div>
+  </aside>
+
+  <!-- Sidebar overlay (mobile) -->
+  <div id="sidebar-overlay" class="hidden fixed inset-0 bg-black/50 z-30 md:hidden" onclick="toggleSidebar()"></div>
+
+  <!-- Main Content -->
+  <div class="flex-1 flex flex-col min-w-0">
+
+    <!-- Top Bar -->
+    <div class="bg-white border-b border-gray-200 px-4 py-3 flex items-center gap-4 sticky top-0 z-20 shadow-sm">
+      <!-- Mobile menu toggle -->
+      <button onclick="toggleSidebar()" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition">
+        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+      <h2 id="page-title" class="text-lg font-black text-gray-900 flex-1">Gestão de Produtos</h2>
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center">
+          <span class="text-sm">👤</span>
+        </div>
+        <span class="text-sm font-semibold text-gray-700 hidden sm:block">Admin</span>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="flex-1 p-4 sm:p-6 overflow-auto">
+
+      <!-- ── PRODUCTS SECTION ─────────────────── -->
+      <section id="section-products" class="space-y-4">
+        <!-- Stats + Actions -->
+        <div class="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
+          <div class="flex gap-3 flex-wrap">
+            <div class="bg-white rounded-xl px-4 py-2.5 shadow-sm border border-gray-100 text-center">
+              <p class="text-2xl font-black text-gray-900" id="stat-total">0</p>
+              <p class="text-xs text-gray-400 font-medium">Total</p>
+            </div>
+            <div class="bg-white rounded-xl px-4 py-2.5 shadow-sm border border-gray-100 text-center">
+              <p class="text-2xl font-black text-green-600" id="stat-instock">0</p>
+              <p class="text-xs text-gray-400 font-medium">Em Estoque</p>
+            </div>
+            <div class="bg-white rounded-xl px-4 py-2.5 shadow-sm border border-gray-100 text-center">
+              <p class="text-2xl font-black text-red-500" id="stat-outofstock">0</p>
+              <p class="text-xs text-gray-400 font-medium">Esgotados</p>
+            </div>
+          </div>
+          <div class="flex gap-2 flex-wrap">
+            <button onclick="openProductModal()"
+              class="bg-gradient-to-r from-rose-600 to-rose-500 text-white px-4 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 hover:opacity-90 transition shadow-md whitespace-nowrap">
+              + Adicionar Produto
+            </button>
+            <button onclick="openBulkModal()"
+              class="bg-white border-2 border-rose-200 text-rose-600 px-4 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 hover:bg-rose-50 transition whitespace-nowrap">
+              ⚡ Importar em Massa
+            </button>
+          </div>
+        </div>
+
+        <!-- Products Table -->
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead class="bg-gray-50 text-gray-500 text-xs font-bold uppercase tracking-wide">
+                <tr>
+                  <th class="px-4 py-3 text-left w-12">Img</th>
+                  <th class="px-4 py-3 text-left min-w-[160px]">Nome</th>
+                  <th class="px-4 py-3 text-left w-32 hidden sm:table-cell">Categoria</th>
+                  <th class="px-4 py-3 text-right w-24">Preço</th>
+                  <th class="px-4 py-3 text-center w-28">Status</th>
+                  <th class="px-4 py-3 text-center w-36">Ações</th>
+                </tr>
+              </thead>
+              <tbody id="products-table-body" class="divide-y divide-gray-50">
+                <tr>
+                  <td colspan="6" class="text-center py-12 text-gray-400">
+                    <div class="text-4xl mb-2">⏳</div>
+                    Carregando produtos...
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── CONFIG SECTION ──────────────────── -->
+      <section id="section-config" class="hidden max-w-lg space-y-6">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+          <h3 class="font-black text-gray-900 text-base mb-1">📱 Configurações da Loja</h3>
+          <p class="text-gray-400 text-sm mb-5">Alterações são aplicadas imediatamente para todos os novos pedidos.</p>
+
+          <div id="config-msg" class="hidden rounded-xl px-4 py-3 mb-4 text-sm font-medium"></div>
+
+          <div class="space-y-4">
+            <div>
+              <label class="block text-xs font-bold text-gray-600 mb-1.5" for="cfg-whatsapp">
+                Número WhatsApp (com código do país, sem espaços)
+              </label>
+              <input id="cfg-whatsapp" type="tel" class="adm-input" placeholder="5547999835305" />
+              <p class="text-gray-400 text-xs mt-1">Ex: 5547999835305 (55=Brasil, 47=DDD, depois o número)</p>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-gray-600 mb-1.5" for="cfg-delivery">
+                Taxa de Entrega (R$) — Use 0 para frete grátis
+              </label>
+              <input id="cfg-delivery" type="number" class="adm-input" placeholder="0" min="0" step="0.01" />
+            </div>
+            <button onclick="saveConfig()"
+              class="w-full bg-gradient-to-r from-rose-600 to-rose-500 text-white font-bold py-3 rounded-xl hover:opacity-90 transition">
+              💾 Salvar Configurações
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4">
+          <p class="text-amber-800 font-bold text-sm mb-1">🔒 Segurança</p>
+          <p class="text-amber-700 text-xs leading-relaxed">
+            Para alterar a senha do admin, defina a variável de ambiente <code class="bg-amber-100 px-1 rounded">ADMIN_PASSWORD</code> antes de iniciar o servidor.
+            Reinicie o servidor após a alteração.
+          </p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     PRODUCT MODAL (Add / Edit)
+════════════════════════════════════════════ -->
+<div id="product-modal" class="modal-overlay" onclick="handleModalBackdropClick(event)">
+  <div class="modal-box">
+    <div class="px-6 py-4 border-b border-gray-100 flex items-center justify-between">
+      <h3 id="modal-title" class="font-black text-gray-900 text-lg">Adicionar Produto</h3>
+      <button onclick="closeProductModal()" class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition">
+        <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="px-6 py-5 space-y-4">
+      <input type="hidden" id="modal-product-id" value="" />
+
+      <div id="modal-error" class="hidden bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 font-medium"></div>
+
+      <div class="grid grid-cols-2 gap-3">
+        <!-- Nome -->
+        <div class="col-span-2">
+          <label class="block text-xs font-bold text-gray-600 mb-1" for="m-name">Nome do produto *</label>
+          <input id="m-name" type="text" class="adm-input" placeholder="Ex: Fralda Pampers Pants M (32 un.)" />
+        </div>
+
+        <!-- Categoria -->
+        <div>
+          <label class="block text-xs font-bold text-gray-600 mb-1" for="m-category">Categoria *</label>
+          <select id="m-category" class="adm-input">
+            <option value="">Selecione...</option>
+            <option value="fraldas">👶 Fraldas</option>
+            <option value="leites">🍼 Leites e Fórmulas</option>
+            <option value="higiene">🧴 Higiene e Saúde</option>
+            <option value="acessorios">🎒 Acessórios</option>
+          </select>
+        </div>
+
+        <!-- Preço -->
+        <div>
+          <label class="block text-xs font-bold text-gray-600 mb-1" for="m-price">Preço (R$) *</label>
+          <input id="m-price" type="number" class="adm-input" placeholder="0.00" min="0" step="0.01" />
+        </div>
+
+        <!-- URL da Imagem -->
+        <div class="col-span-2">
+          <label class="block text-xs font-bold text-gray-600 mb-1" for="m-image">URL da Imagem</label>
+          <input id="m-image" type="url" class="adm-input" placeholder="https://..." oninput="previewImage()" />
+        </div>
+
+        <!-- Preview -->
+        <div class="col-span-2" id="img-preview-wrap" style="display:none;">
+          <img id="img-preview" src="" alt="Preview" class="w-24 h-24 object-cover rounded-xl border border-gray-200" />
+        </div>
+
+        <!-- Descrição -->
+        <div class="col-span-2">
+          <label class="block text-xs font-bold text-gray-600 mb-1" for="m-description">Descrição</label>
+          <textarea id="m-description" class="adm-input resize-none" rows="3" placeholder="Descrição breve do produto..."></textarea>
+        </div>
+      </div>
+
+      <div class="flex gap-3 pt-2">
+        <button onclick="closeProductModal()"
+          class="flex-1 bg-gray-100 text-gray-700 font-bold py-3 rounded-xl hover:bg-gray-200 transition text-sm">
+          Cancelar
+        </button>
+        <button onclick="saveProduct()" id="modal-save-btn"
+          class="flex-1 bg-gradient-to-r from-rose-600 to-rose-500 text-white font-bold py-3 rounded-xl hover:opacity-90 transition text-sm">
+          💾 Salvar Produto
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delete confirmation modal -->
+<div id="delete-modal" class="modal-overlay" onclick="handleDeleteBackdropClick(event)">
+  <div class="modal-box max-w-sm p-8 text-center">
+    <div class="text-5xl mb-4">🗑️</div>
+    <h3 class="font-black text-gray-900 text-lg mb-2">Excluir produto?</h3>
+    <p class="text-gray-500 text-sm mb-6" id="delete-product-name">Esta ação não pode ser desfeita.</p>
+    <div class="flex gap-3">
+      <button onclick="closeDeleteModal()"
+        class="flex-1 bg-gray-100 text-gray-700 font-bold py-3 rounded-xl hover:bg-gray-200 transition">
+        Cancelar
+      </button>
+      <button onclick="confirmDelete()" id="delete-confirm-btn"
+        class="flex-1 bg-red-600 text-white font-bold py-3 rounded-xl hover:bg-red-700 transition">
+        Excluir
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     BULK IMPORT MODAL
+════════════════════════════════════════════ -->
+<div id="bulk-modal" class="modal-overlay" onclick="handleBulkBackdropClick(event)">
+  <div class="modal-box-wide">
+
+    <!-- Header -->
+    <div class="px-6 py-4 border-b border-gray-100 flex items-center justify-between">
+      <div>
+        <h3 class="font-black text-gray-900 text-lg">⚡ Importar Produtos em Massa</h3>
+        <p class="text-gray-400 text-xs mt-0.5">Escolha o método e importe vários produtos de uma vez</p>
+      </div>
+      <button onclick="closeBulkModal()" class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition">
+        <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="px-6 pt-4 pb-2">
+      <div class="flex gap-2">
+        <button class="import-tab active" id="tab-csv" onclick="switchBulkTab('csv')">
+          📋 Colar Excel / CSV
+        </button>
+        <button class="import-tab" id="tab-form" onclick="switchBulkTab('form')">
+          ✏️ Formulário Múltiplo
+        </button>
+      </div>
+    </div>
+
+    <!-- Feedback bar -->
+    <div id="bulk-feedback" class="hidden mx-6 mt-3 rounded-xl px-4 py-3 text-sm font-medium"></div>
+
+    <!-- ─── TAB: CSV ─────────────────────────── -->
+    <div id="bulk-tab-csv" class="px-6 pb-6 pt-3 space-y-4">
+
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs text-amber-800">
+        <strong>Como usar:</strong> Copie suas células do Excel / Google Sheets (ou cole texto separado por vírgulas/ponto-e-vírgula).
+        A primeira linha pode ser cabeçalho — ela será ignorada automaticamente.<br/>
+        <strong>Colunas esperadas:</strong>
+        <code class="bg-amber-100 px-1 rounded">Nome</code>
+        <code class="bg-amber-100 px-1 rounded">Preço</code>
+        <code class="bg-amber-100 px-1 rounded">Categoria</code>
+        <code class="bg-amber-100 px-1 rounded">Descrição</code>
+        <code class="bg-amber-100 px-1 rounded">URL Imagem</code>
+        (as 3 últimas são opcionais)
+      </div>
+
+      <div>
+        <label class="block text-xs font-bold text-gray-600 mb-1.5">Cole os dados aqui 👇</label>
+        <textarea
+          id="csv-input"
+          class="adm-input resize-none font-mono text-xs"
+          rows="8"
+          placeholder="Fralda Pampers M	49.90	fraldas	Até 12h proteção
+https://...
+Fralda Huggies G	52.90	fraldas
+Nan Supreme 1	89.90	leites"
+          oninput="parseCsvPreview()"
+          spellcheck="false"
+        ></textarea>
+      </div>
+
+      <!-- Preview table -->
+      <div id="csv-preview-area" class="hidden">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-xs font-bold text-gray-600">Pré-visualização <span id="csv-count-label" class="text-rose-600"></span></p>
+          <button onclick="clearCsvInput()" class="text-xs text-gray-400 hover:text-red-500 transition">🗑 Limpar</button>
+        </div>
+        <div class="border border-gray-200 rounded-xl overflow-hidden overflow-x-auto max-h-52">
+          <table class="csv-preview-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+                <th>Descrição</th>
+                <th>Imagem</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="csv-preview-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <button
+        id="csv-import-btn"
+        onclick="importFromCsv()"
+        disabled
+        class="w-full bg-gradient-to-r from-rose-600 to-rose-500 text-white font-bold py-3.5 rounded-xl hover:opacity-90 transition disabled:opacity-40 disabled:cursor-not-allowed text-sm">
+        ⚡ Importar <span id="csv-import-count">0</span> produtos
+      </button>
+    </div>
+
+    <!-- ─── TAB: FORM ─────────────────────────── -->
+    <div id="bulk-tab-form" class="px-6 pb-6 pt-3 space-y-4 hidden">
+
+      <div class="bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs text-blue-800">
+        <strong>Como usar:</strong> Cada linha é um produto. Preencha nome (obrigatório), preço e categoria.
+        Clique em <strong>+ Adicionar Linha</strong> para incluir mais produtos. Importe tudo de uma vez.
+      </div>
+
+      <!-- Column headers -->
+      <div class="row-item px-1">
+        <span class="text-xs font-bold text-gray-500 uppercase tracking-wide">Nome *</span>
+        <span class="text-xs font-bold text-gray-500 uppercase tracking-wide row-price">Preço *</span>
+        <span class="text-xs font-bold text-gray-500 uppercase tracking-wide row-cat">Categoria</span>
+        <span></span>
+      </div>
+
+      <!-- Dynamic rows -->
+      <div id="form-rows" class="space-y-2"></div>
+
+      <button onclick="addFormRow()"
+        class="w-full border-2 border-dashed border-rose-200 text-rose-500 font-bold py-3 rounded-xl hover:bg-rose-50 hover:border-rose-400 transition text-sm">
+        + Adicionar Linha
+      </button>
+
+      <button
+        id="form-import-btn"
+        onclick="importFromForm()"
+        class="w-full bg-gradient-to-r from-rose-600 to-rose-500 text-white font-bold py-3.5 rounded-xl hover:opacity-90 transition text-sm">
+        ⚡ Importar Todos os Produtos
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<script src="/js/admin.js"></script>
+</body>
+</html>
