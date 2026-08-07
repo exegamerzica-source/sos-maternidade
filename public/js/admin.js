@@ -402,12 +402,19 @@ async function loadConfig() {
   if (data) {
     document.getElementById('cfg-whatsapp').value = data.whatsapp || '';
     document.getElementById('cfg-delivery').value = data.deliveryFee ?? 0;
+    
+    if (data.promoBanner) {
+      document.getElementById('cfg-promo-active').checked = data.promoBanner.active;
+      document.getElementById('cfg-promo-text').value = data.promoBanner.text || '';
+    }
   }
 }
 
 async function saveConfig() {
   const whatsapp = document.getElementById('cfg-whatsapp').value.trim().replace(/\D/g, '');
   const deliveryFee = parseFloat(document.getElementById('cfg-delivery').value) || 0;
+  const promoActive = document.getElementById('cfg-promo-active').checked;
+  const promoText = document.getElementById('cfg-promo-text').value.trim();
   const msgEl = document.getElementById('config-msg');
 
   if (!whatsapp) {
@@ -418,12 +425,20 @@ async function saveConfig() {
   const result = await apiFetch('/api/admin/config', {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ whatsapp, deliveryFee }),
+    body: JSON.stringify({ 
+      whatsapp, 
+      deliveryFee,
+      promoBanner: { active: promoActive, text: promoText }
+    }),
   });
 
   if (result && result.whatsapp) {
     document.getElementById('cfg-whatsapp').value = result.whatsapp;
     document.getElementById('cfg-delivery').value = result.deliveryFee;
+    if (result.promoBanner) {
+      document.getElementById('cfg-promo-active').checked = result.promoBanner.active;
+      document.getElementById('cfg-promo-text').value = result.promoBanner.text;
+    }
     showConfigMsg('✅ Configurações salvas com sucesso!', 'success');
   } else {
     showConfigMsg('Erro ao salvar configurações.', 'error');

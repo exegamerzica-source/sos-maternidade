@@ -63,6 +63,26 @@ async function fetchConfig() {
   if (!res.ok) throw new Error('Falha ao buscar configurações');
   storeConfig = await res.json();
   updateDeliveryDisplay();
+  updatePromoBanner();
+}
+
+function updatePromoBanner() {
+  const frame = document.getElementById('promo-frame');
+  const badge = document.getElementById('promo-badge');
+  const textDisplay = document.getElementById('promo-text-display');
+  
+  if (frame && badge && textDisplay) {
+    if (storeConfig.promoBanner && storeConfig.promoBanner.active && storeConfig.promoBanner.text) {
+      textDisplay.textContent = storeConfig.promoBanner.text;
+      frame.classList.remove('hidden');
+      badge.classList.remove('hidden');
+      badge.classList.add('flex');
+    } else {
+      frame.classList.add('hidden');
+      badge.classList.add('hidden');
+      badge.classList.remove('flex');
+    }
+  }
 }
 
 async function fetchProducts() {
@@ -157,7 +177,8 @@ function buildProductCard(p) {
       </div>
       <div class="p-3 flex flex-col flex-1">
         <p class="font-bold text-gray-900 text-sm leading-snug line-clamp-2 mb-1">${escapeHtml(p.name)}</p>
-        ${p.description ? `<p class="text-gray-400 text-xs line-clamp-2 mb-2 flex-1">${escapeHtml(p.description)}</p>` : '<div class="flex-1"></div>'}
+        ${p.description ? `<p class="text-gray-400 text-xs line-clamp-2 mb-1 flex-1">${escapeHtml(p.description)}</p>` : '<div class="flex-1"></div>'}
+        ${p.oldPrice ? `<p class="text-gray-400 text-xs line-through mb-0">${formatCurrency(p.oldPrice)}</p>` : ''}
         <p class="text-sky-600 font-black text-lg mb-2">${priceStr}</p>
         <div class="mt-auto" onclick="event.stopPropagation()">${addBtn}</div>
       </div>
@@ -523,6 +544,7 @@ function openProductModal(productId) {
     <div class="flex items-center justify-between bg-sky-50 rounded-2xl p-4 mb-4 border border-sky-100">
       <div>
         <p class="text-sky-600 text-xs font-bold uppercase tracking-wider">Preço</p>
+        ${p.oldPrice ? `<p class="text-gray-400 text-sm line-through leading-none mt-1">${formatCurrency(p.oldPrice)}</p>` : ''}
         <p class="text-sky-700 font-black text-3xl">${formatCurrency(p.price)}</p>
       </div>
       <div class="text-right">

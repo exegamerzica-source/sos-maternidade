@@ -28,7 +28,12 @@ function writeDB(data) {
 
 function initDefaultDB() {
   const defaults = {
-    config: { whatsapp: '5547999835305', deliveryFee: 0, storeName: 'BabyFlash' },
+    config: { 
+      whatsapp: '5547999835305', 
+      deliveryFee: 0, 
+      storeName: 'BabyFlash',
+      promoBanner: { text: '', active: false }
+    },
     admin: { password: 'admin123' },
     products: []
   };
@@ -72,10 +77,16 @@ app.get('/api/products', (_req, res) => {
   res.json(db.products);
 });
 
-// GET /api/config  — public store settings (whatsapp, deliveryFee, storeName)
+// GET /api/config  — public store settings
 app.get('/api/config', (_req, res) => {
-  const { whatsapp, deliveryFee, storeName } = readDB().config;
-  res.json({ whatsapp, deliveryFee, storeName });
+  const db = readDB();
+  const config = db.config || {};
+  res.json({
+    whatsapp: config.whatsapp,
+    deliveryFee: config.deliveryFee,
+    storeName: config.storeName,
+    promoBanner: config.promoBanner || { text: '', active: false }
+  });
 });
 
 // ══════════════════════════════════════════════
@@ -197,13 +208,19 @@ app.delete('/api/admin/products/:id', requireAdmin, (req, res) => {
 // PUT /api/admin/config
 app.put('/api/admin/config', requireAdmin, (req, res) => {
   const db = readDB();
-  const { whatsapp, deliveryFee } = req.body;
+  const { whatsapp, deliveryFee, promoBanner } = req.body;
 
   if (whatsapp !== undefined) {
     db.config.whatsapp = String(whatsapp).replace(/\D/g, '');
   }
   if (deliveryFee !== undefined) {
     db.config.deliveryFee = Math.max(0, parseFloat(deliveryFee) || 0);
+  }
+  if (promoBanner !== undefined) {
+    db.config.promoBanner = {
+      active: !!promoBanner.active,
+      text: String(promoBanner.text || '').trim()
+    };
   }
 
   writeDB(db);
