@@ -67,18 +67,15 @@ async function fetchConfig() {
 }
 
 function updatePromoBanner() {
-  const frame = document.getElementById('promo-frame');
   const badge = document.getElementById('promo-badge');
   const textDisplay = document.getElementById('promo-text-display');
   
-  if (frame && badge && textDisplay) {
+  if (badge && textDisplay) {
     if (storeConfig.promoBanner && storeConfig.promoBanner.active && storeConfig.promoBanner.text) {
       textDisplay.textContent = storeConfig.promoBanner.text;
-      frame.classList.remove('hidden');
       badge.classList.remove('hidden');
       badge.classList.add('flex');
     } else {
-      frame.classList.add('hidden');
       badge.classList.add('hidden');
       badge.classList.remove('flex');
     }
