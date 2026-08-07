@@ -27,6 +27,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     showToast('Erro ao carregar produtos. Tente novamente.', 'error');
   }
 
+  const sb = document.getElementById('search-bar');
+  if (sb) {
+    sb.addEventListener('input', () => {
+      // Quando o usuário pesquisa, se a categoria não for "all", talvez seja melhor resetar para "all" 
+      // ou apenas filtrar na categoria atual. Vamos filtrar na categoria atual, mas é bom voltar pra ALL se não achar nada.
+      renderProducts();
+    });
+  }
+
   renderProducts();
   updateCartUI();
 });
@@ -82,10 +91,19 @@ function filterCategory(category, btn) {
 function renderProducts() {
   const grid = document.getElementById('product-grid');
   const empty = document.getElementById('empty-state');
+  const sb = document.getElementById('search-bar');
+  const searchTerm = sb ? sb.value.toLowerCase().trim() : '';
 
-  const filtered = currentCategory === 'all'
+  let filtered = currentCategory === 'all'
     ? allProducts
     : allProducts.filter(p => p.category === currentCategory);
+
+  if (searchTerm) {
+    filtered = filtered.filter(p => 
+      p.name.toLowerCase().includes(searchTerm) || 
+      (p.description && p.description.toLowerCase().includes(searchTerm))
+    );
+  }
 
   if (filtered.length === 0) {
     grid.innerHTML = '';
