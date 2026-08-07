@@ -74,7 +74,7 @@
 ════════════════════════════════════════════ -->
 <main class="pt-[88px] pb-28 max-w-5xl mx-auto px-4">
   <!-- Promo Banner (Dynamic) -->
-  <div id="promo-badge" class="fixed top-24 inset-x-0 mx-auto z-[999] hidden w-[90vw] max-w-[400px] bg-gradient-to-r from-yellow-400 to-yellow-300 text-yellow-900 font-black rounded-3xl shadow-xl shadow-yellow-400/30 p-3 flex flex-row items-center justify-center gap-2 text-center text-[13px] sm:text-sm leading-tight animate-bounce pointer-events-none">
+  <div id="promo-badge" class="hidden w-full mb-4 bg-gradient-to-r from-yellow-400 to-yellow-300 text-yellow-900 font-black rounded-2xl shadow-md p-3 flex flex-row items-center justify-center gap-2 text-center text-[13px] sm:text-sm leading-tight pointer-events-none">
     <span class="animate-pulse text-xl flex-shrink-0">🔥</span>
     <span id="promo-text-display" class="whitespace-normal break-words flex-1"></span>
     <span class="animate-pulse text-xl flex-shrink-0">🔥</span>
@@ -253,62 +253,7 @@
 
     <!-- Checkout Form -->
     <div id="checkout-section" class="hidden px-5 pb-4">
-      <div class="border-t border-gray-100 pt-4 mb-4">
-        <h3 class="font-black text-gray-900 text-base mb-1">📋 Dados de Entrega</h3>
-        <p class="text-gray-400 text-xs">Preencha para finalizarmos seu pedido</p>
-      </div>
 
-      <div class="space-y-3">
-        <!-- Nome -->
-        <div>
-          <label class="block text-xs font-bold text-gray-600 mb-1" for="f-name">Nome completo *</label>
-          <input id="f-name" type="text" class="form-input" placeholder="Ex: Maria da Silva" autocomplete="name" />
-        </div>
-
-        <!-- Endereço e Número -->
-        <div class="flex gap-2">
-          <div class="flex-1">
-            <label class="block text-xs font-bold text-gray-600 mb-1" for="f-street">Rua / Avenida *</label>
-            <input id="f-street" type="text" class="form-input" placeholder="Nome da rua" autocomplete="address-line1" />
-          </div>
-          <div class="w-24">
-            <label class="block text-xs font-bold text-gray-600 mb-1" for="f-number">Número *</label>
-            <input id="f-number" type="text" class="form-input" placeholder="Nº" />
-          </div>
-        </div>
-
-        <!-- Bairro -->
-        <div>
-          <label class="block text-xs font-bold text-gray-600 mb-1" for="f-neighborhood">Bairro *</label>
-          <input id="f-neighborhood" type="text" class="form-input" placeholder="Ex: Centro" autocomplete="address-level2" />
-        </div>
-
-        <!-- Referência -->
-        <div>
-          <label class="block text-xs font-bold text-gray-600 mb-1" for="f-reference">
-            Ponto de referência *
-            <span class="text-sky-500 font-normal ml-1">(obrigatório)</span>
-          </label>
-          <input id="f-reference" type="text" class="form-input" placeholder="Ex: Em frente ao mercado X, portão azul..." />
-        </div>
-
-        <!-- Pagamento -->
-        <div>
-          <label class="block text-xs font-bold text-gray-600 mb-2">Forma de pagamento *</label>
-          <div class="flex gap-3">
-            <button type="button" class="pay-option active" id="pay-pix" onclick="selectPayment('Pix')">
-              <div class="text-xl mb-1">💸</div>
-              <div>Pix</div>
-              <div class="text-[10px] opacity-60 font-normal">Instantâneo</div>
-            </button>
-            <button type="button" class="pay-option" id="pay-card" onclick="selectPayment('Cartão')">
-              <div class="text-xl mb-1">💳</div>
-              <div>Cartão</div>
-              <div class="text-[10px] opacity-60 font-normal">Débito / Crédito</div>
-            </button>
-          </div>
-        </div>
-      </div>
 
       <!-- Order Summary -->
       <div class="mt-5 bg-gray-50 rounded-2xl p-4 space-y-2">
@@ -332,10 +277,10 @@
           <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
           </svg>
-          ENVIAR PEDIDO AGORA NO WHATSAPP
+          COMPRAR AGORA
         </button>
         <p class="text-center text-gray-400 text-xs mt-2">
-          Você será redirecionado ao WhatsApp para confirmar o pedido 🔒
+          Finalize seu pedido com segurança no WhatsApp 🔒
         </p>
       </div>
     </div>

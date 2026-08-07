@@ -389,10 +389,9 @@ function selectPayment(method) {
 // ──────────────────────────────────────────────
 //  Checkout & WhatsApp
 // ──────────────────────────────────────────────
+// Checkout now skips form validation and sends directly to WhatsApp
 function handleCheckout() {
-  if (!validateForm()) return;
-  const formData = readFormData();
-  const message = buildWhatsAppMessage(formData);
+  const message = buildWhatsAppMessage();
   const encoded = encodeURIComponent(message);
   const url = `https://wa.me/${storeConfig.whatsapp}?text=${encoded}`;
 
@@ -411,46 +410,7 @@ function handleCheckout() {
   window.open(url, '_blank');
 }
 
-function validateForm() {
-  const fields = [
-    { id: 'f-name',         label: 'Nome completo' },
-    { id: 'f-street',       label: 'Rua/Avenida' },
-    { id: 'f-number',       label: 'Número' },
-    { id: 'f-neighborhood', label: 'Bairro' },
-    { id: 'f-reference',    label: 'Ponto de referência' },
-  ];
-
-  let valid = true;
-  fields.forEach(f => {
-    const el = document.getElementById(f.id);
-    const empty = !el.value.trim();
-    el.classList.toggle('error', empty);
-    if (empty) {
-      valid = false;
-    } else {
-      el.classList.remove('error');
-    }
-  });
-
-  if (!valid) {
-    showToast('⚠️ Preencha todos os campos obrigatórios', 'error');
-    document.getElementById('f-name').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }
-  return valid;
-}
-
-function readFormData() {
-  return {
-    name:         document.getElementById('f-name').value.trim(),
-    street:       document.getElementById('f-street').value.trim(),
-    number:       document.getElementById('f-number').value.trim(),
-    neighborhood: document.getElementById('f-neighborhood').value.trim(),
-    reference:    document.getElementById('f-reference').value.trim(),
-    payment:      selectedPayment,
-  };
-}
-
-function buildWhatsAppMessage(f) {
+function buildWhatsAppMessage() {
   const items = Object.entries(cart)
     .filter(([, qty]) => qty > 0)
     .map(([id, qty]) => {
@@ -470,23 +430,19 @@ function buildWhatsAppMessage(f) {
   return (
 `👶 *NOVO PEDIDO - BABYFLASH* 👶
 --------------------------------------------------
-*Cliente:* ${f.name}
-*Endereço:* ${f.street}, ${f.number} - ${f.neighborhood}
-*Referência:* ${f.reference}
-*Pagamento:* ${f.payment}
 
 📦 *ITENS DO PEDIDO:*
 ${items}
 
+💰 *Subtotal:* R$ ${subtotal.toFixed(2).replace('.', ',')}
+🚚 *Entrega:* ${feeStr}
+✅ *TOTAL:* R$ ${total.toFixed(2).replace('.', ',')}
+
 --------------------------------------------------
-*Subtotal:* R$ ${subtotal.toFixed(2).replace('.', ',')}
-*Taxa de Entrega:* ${feeStr}
-💰 *TOTAL DA COMPRA: R$ ${total.toFixed(2).replace('.', ',')}*
---------------------------------------------------
-*Por favor, me envie a chave Pix para pagamento e liberação da entrega!*
---------------------------------------------------`
-  );
-}
+Olá! Quero finalizar meu pedido.
+Qual o valor da entrega para o meu endereço e as formas de pagamento?`
+  ).trim();
+
 
 // ──────────────────────────────────────────────
 //  Toast
