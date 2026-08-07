@@ -38,6 +38,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   renderProducts();
   updateCartUI();
+
+  // Set up floating WhatsApp button
+  const floatBtn = document.getElementById('floating-whatsapp');
+  if (floatBtn) {
+    const msg = encodeURIComponent("Olá! Estou no site da BabyFlash e preciso de ajuda.");
+    floatBtn.href = `https://wa.me/${storeConfig.whatsapp}?text=${msg}`;
+  }
 });
 
 // ──────────────────────────────────────────────
