@@ -442,7 +442,7 @@ ${items}
 Olá! Quero finalizar meu pedido.
 Qual o valor da entrega para o meu endereço e as formas de pagamento?`
   ).trim();
-
+}
 
 // ──────────────────────────────────────────────
 //  Toast
@@ -551,9 +551,5 @@ function buyNow(productId) {
     addToCart(productId);
   }
   openDrawer();
-  setTimeout(() => {
-    document.getElementById('f-name').scrollIntoView({ behavior: 'smooth', block: 'center' });
-    document.getElementById('f-name').focus();
-  }, 300);
 }
 
