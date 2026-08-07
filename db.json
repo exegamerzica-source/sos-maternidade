@@ -504,6 +504,78 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070317315-2vqr8",
+      "name": "Dosador de Leite em Pó Plasútil Arco-íris  Ref.7068",
+      "category": "leites",
+      "price": 8.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/11/2259.jpg",
+      "description": "Conheça toda a coleção: Arco-Íris Escolha a sua estampa &nbsp; &nbsp; &nbsp; &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-zxmiu",
+      "name": "Repelente Repellere Kids Loção 100ml  2+ Anos",
+      "category": "leites",
+      "price": 8.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/12/8791-1.webp",
+      "description": "Desenvolvido especialmente para proteger seu pequeno a partir dos 2 anos contra picadas de pernilongos, mosquitos e outros insetos por até 4 horas de eficácia. Além de oferecer proteção intensa, sua fórmula suave contêm vitamina E.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-mg0mb",
+      "name": "Toalha Umedecidas Piquitucho Pratic 96 Toalhas",
+      "category": "leites",
+      "price": 8.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/03/6416.jpg",
+      "description": "Emb. Venda ( 01 Unidade) Emb. Caixa Fechada : ( Caixa com 12 Unidades ) As toalhinhas Umedecidas Piquitucho Pratic foram especialmente desenvolvidas para a higiene da pele delicada do bebê. Sua fórmula suave é enriquecida com manteiga de karité*, ext",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-ueh0q",
+      "name": "Toalha Umedecidas Piquitucho Premium 120toalhas",
+      "category": "leites",
+      "price": 10.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/06/11078.webp",
+      "description": "• Formuladas com ingredientes suaves, Glicerídeos da manteiga de Karité, extratos de Capim Limão e Aloe Vera, proporcionando toque macio, limpeza delicada e eficaz • Sua fragrância foi especialmente desenvolvida com tecnologia exclusiva, contendo ing",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-09jyi",
+      "name": "Sabonete Liquido Snoopy Baby",
+      "category": "leites",
+      "price": 10.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/sabonete-liquido-snoopy.webp",
+      "description": "As toalhinhas umedecidas Cottonbaby Premium Cuidado da Pele foram criadas especialmente para cuidar da pele sensível do seu bebê. Possuem em sua composição Dexpantenol, mesma substância típica de cremes preventivos de assaduras, que fornecem propried",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-yxdeq",
+      "name": "Loção Hidratante Muriel Baby Camomila 100ml",
+      "category": "leites",
+      "price": 12.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/01/12513.webp",
+      "description": "Loção Hidratante Muriel Baby &#8211; 100ml A Loção Hidratante Muriel Baby foi especialmente desenvolvida para cuidar da pele sensível e delicada dos bebês. Sua fórmula suave proporciona uma hidratação profunda e duradoura, deixando a pele macia, sedo",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-o1t5n",
+      "name": "Loção Hidratante Muriel Baby Lavanda 100ml",
+      "category": "leites",
+      "price": 12.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/01/12512.webp",
+      "description": "Loção Hidratante Muriel Baby &#8211; 100ml A Loção Hidratante Muriel Baby foi especialmente desenvolvida para cuidar da pele sensível e delicada dos bebês. Sua fórmula suave proporciona uma hidratação profunda e duradoura, deixando a pele macia, sedo",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-tgnww",
+      "name": "Loção Hidratante Muriel Baby Rosa 100ml",
+      "category": "leites",
+      "price": 12.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/01/12511.webp",
+      "description": "Loção Hidratante Muriel Baby &#8211; 100ml A Loção Hidratante Muriel Baby foi especialmente desenvolvida para cuidar da pele sensível e delicada dos bebês. Sua fórmula suave proporciona uma hidratação profunda e duradoura, deixando a pele macia, sedo",
+      "inStock": true
+    },
+    {
       "id": "omf-1786069654767-a721i",
       "name": "Água de Colônia Nanê Premium Suave 100ml",
       "category": "leites",
@@ -531,12 +603,93 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070308830-4vfgs",
+      "name": "Desodorante Aerosol Rexona Masc Xtracool 150ml",
+      "category": "leites",
+      "price": 14.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/03/8872.webp",
+      "description": "Mais uma vez Rexona se supera e relança sua linha de desodorantes com uma fórmula inovadora, que combina um novo e exclusivo ativo antitranspirante com a tecnologia de fragrâncias encapsuladas. O resultado? 72 horas de proteção ativada pelo seu movim",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-355oy",
+      "name": "Sabonete Líquido Baruel Baby Sono Tranquilo 210ml",
+      "category": "leites",
+      "price": 14.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7692.webp",
+      "description": "O creme preventivo de Assadura Baruel baby forma uma barreira protetora na pele do bebê que impede a penetração da umidade e previne o aparecimento de assaduras. Sua formulação com consistência cremosa facilita a aplicação e remoção do produto a cada",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-0khbw",
+      "name": "Spray Desembaraçante Tralala Baby Proteção Delicada 250ml",
+      "category": "leites",
+      "price": 15,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/08/11412.webp",
+      "description": "O Spray desembaraçante tralala Baby possui fórmula suave, hipoalergênica e dermatologicamente testada, que desembaraça delicadamente os fios sem pesar e sem enxágue. Enriquecido com extrato de aloe vera e manteiga de karité, hidrata e protege os cabe",
+      "inStock": true
+    },
+    {
       "id": "omf-1786069654767-pz6mj",
       "name": "Talco Infantil Nanê Suave 200g",
       "category": "leites",
       "price": 16,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13397.webp",
       "description": "Talco Infantil Nanê 200g O Talco Infantil Nanê foi desenvolvido para proporcionar uma sensação de conforto e proteção à pele delicada do bebê. Sua fórmula de textura delicada ajuda a manter a pele sequinha, prevenindo o desconforto causado pelo exces",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-nt3gj",
+      "name": "Shampoo Johnson&#8217;s® Blackinho Poderoso 200ml",
+      "category": "leites",
+      "price": 16.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/03/10507-1.webp",
+      "description": "Shampoo Johnson’s Kids Blackinho Poderoso O Shampoo Johnson’s Kids Blackinho Poderoso foi desenvolvido especialmente para cuidar dos cabelos crespos e cacheados das crianças, proporcionando uma limpeza suave sem ressecar os fios. Sua fórmula enriquec",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287756-gekxa",
+      "name": "Desodorante Aerosol Dove Fem Beauty Fresh Romã &amp; Verbana150ml",
+      "category": "leites",
+      "price": 17,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/03/12662.webp",
+      "description": "Desodorante Dove Romã &amp; Verbena O Dove Fresh Care Romã e Verbena garante 72h de proteção contra o suor e o mau odor. Sua fórmula avançada enriquecida com Sérum Pró-Ceramidas e Ácido Hialurônico ajuda na recuperação da pele, proporcionando axilas ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-2936c",
+      "name": "Desodorante Aerosol Dove Fem Beauty Fresh Pera &amp; Aloe Vera 150ml",
+      "category": "leites",
+      "price": 17,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/03/12661.webp",
+      "description": "Desodorante Dove Pêra &amp; Aloe Vera O Dove Fresh Care Pêra garante 72h de proteção eficaz. Sua fórmula avançada com Sérum Pró-Ceramidas e Ácido Hialurônico cuida profundamente das axilas, oferecendo um frescor único com notas de pêra e aloe vera.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-wc6r6",
+      "name": "Desodorante Aerosol Dove Fem Beauty Fresh Pêssego 150ml",
+      "category": "leites",
+      "price": 17,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/03/12659.webp",
+      "description": "Desodorante Dove Fresh Care Pêssego O Dove Fresh Care oferece até 72h de proteção contra o suor. Sua fórmula exclusiva contém Sérum Pró-Ceramidas e Ácido Hialurônico , garantindo axilas macias, hidratadas e com um suave perfume de pêssego e leite de ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-khsyk",
+      "name": "Condicionador Palmolive Kids Todos Os Tipos de Cabelos 350ml",
+      "category": "leites",
+      "price": 18,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/08/7833.webp",
+      "description": "O condicionador Palmolive Kids foi desenvolvido especialmente para crianças a partir de 4 anos, tem uma fórmula divertida e suave, dermatologicamente testada, com pH balanceado. Esse condicionador Palmolive infantil perfuma o cabelo, deixando-o sem n",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-e6mr8",
+      "name": "Sabonete Líquido Johnson&#8217;s Baby Camomila 200ml",
+      "category": "leites",
+      "price": 18.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/08/9941-1.webp",
+      "description": "Sabonete Líquido Johnson’s Baby Camomila O Sabonete Líquido Johnson’s Baby Camomila foi desenvolvido especialmente para limpar delicadamente a pele do bebê, proporcionando cuidado suave e uma sensação agradável após o banho. Sua fórmula com glicerina",
       "inStock": true
     },
     {
@@ -567,12 +720,174 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070287756-uvebc",
+      "name": "Body Time Psg P(0 A 3 Meses)",
+      "category": "leites",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13105.webp",
+      "description": "🔵🔴 Body Bebê Time Paris 🔴🔵 Para os pequenos apaixonados por futebol desde os primeiros meses de vida! O Body Bebê Time Paris traz um visual inspirado em um dos clubes mais admirados do mundo, combinando estilo, conforto e muita personalidade para",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287756-b83mk",
+      "name": "Body Frases Promovido A Irmão Mais Velho",
+      "category": "leites",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/Grade-1298.webp",
+      "description": "👑💙 Body Promovido a Irmão Mais Velho / Irmã Mais Velha 💗👑 Uma novidade especial merece uma forma inesquecível de anunciar! O Body Promovido a Irmão Mais Velho / Irmã Mais Velha é perfeito para registrar esse momento único e emocionante, tornando ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-77fsq",
+      "name": "Repelente Off Family Loção 200ml +2 Anos",
+      "category": "leites",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/06/9447.webp",
+      "description": "OFF!® Family Loção é dermatologicamente testado e foi desenvolvido para ser usado por toda a família (crianças acima de 2 anos). Sua fórmula não oleosa, possui Aloe Vera e protege por 4 horas, garante proteção contra mosquitos, inclusive contra o aed",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070298763-6g3hx",
+      "name": "Leite Ninho Instantâneo Lata 380g",
+      "category": "leites",
+      "price": 21.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/11/1609.jpg",
+      "description": "Leite em Pó Integral Ninho Forti+ 400g O tradicional Leite em Pó Integral Ninho Forti+ é sinônimo de qualidade e nutrição para toda a família. Produzido pela Nestlé, oferece o sabor marcante e a cremosidade que conquistam gerações, sendo ideal para o",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-pr9t0",
+      "name": "Pijama Regata + Short Cód. 10513 Baby",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/10/grade-502-8592-8593-8595-8596-8597-8598-8599-8600.webp",
+      "description": "Pijama Regata + Shorts Baby: Conforto e Estilo em uma Só Peça! Este pijama oferece: Regata Confortável: Perfeita para noites quentes, proporcionando liberdade de movimento. Shorts Adorável: Design fofo e conforto para garantir uma boa noite de sono. ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-uf58r",
+      "name": "Condicionador Granado Bebê Hipoalergênico Erva-doce 250ml",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7754.webp",
+      "description": "Fórmula suave enriquecida com ativos derivados da celulose, que deixam o cabelo macio, fácil de pentear e perfumado. Especialmente desenvolvido para o cabelo delicado do bebê. Dermatologicamente testado. Livre de parabenos e corantes.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-4fkxb",
+      "name": "Condicionador Granado Bebê Hipoalergênico Lavanda 250ml",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7753.webp",
+      "description": "Fórmula suave enriquecida com ativos derivados da celulose, que deixam o cabelo macio, fácil de pentear e perfumado. Especialmente desenvolvido para o cabelo delicado do bebê. Dermatologicamente testado. Livre de parabenos e corantes.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070313896-u9t4b",
+      "name": "Pano de Boca Babete Soft Dengo 2un 20x40cm Azul 3683-11",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/05/7246.webp",
+      "description": "Pano de boca ou Babete como você preferir. Este é um produto da linha Dengo, o babete é feito de pano macio que agente chama de SOFT e parece uma fraldinha. É usado quando você amamenta ou dá mamadeira para o bebê, evitando que se o leite voltar, man",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070313896-30w5i",
+      "name": "Kit Pano de Boca Babete Soft Dengo 2un 20x40cm Menina 368312",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/05/7245.webp",
+      "description": "Pano de boca ou Babete como você preferir. Este é um produto da linha Dengo, o babete é feito de pano macio que agente chama de SOFT e parece uma fraldinha. É usado quando você amamenta ou dá mamadeira para o bebê, evitando que se o leite voltar, man",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-o5dn1",
+      "name": "Repelente Repelex Family Loção 200ml +2 Anos",
+      "category": "leites",
+      "price": 24,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13009.webp",
+      "description": "Proteção e Saúde Repelente Super Repelex Loção Eficaz contra mosquitos • Fragrância Suave Proteção para toda a família Seguro para uso em adultos e crianças a partir de 2 anos. Dermatologicamente Testado Fórmula segura que respeita a sua pele. Textur",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-4mzfv",
+      "name": "Repelente Repellere Baby Loção 100ml  +6 Meses",
+      "category": "leites",
+      "price": 24,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/05/9446.-web.webp",
+      "description": "Desenvolvido especialmente para proteger seu pequeno a partir dos 2 anos contra picadas de pernilongos, mosquitos e outros insetos por até 4 horas de eficácia. Além de oferecer proteção intensa, sua fórmula suave contêm vitamina E.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-g2t59",
+      "name": "Fralda Fofura Baby Mega M 34unidades",
+      "category": "leites",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/08/12184.webp",
+      "description": "M 34 G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-jl8d8",
+      "name": "Fralda Fofura Baby Mega Xxg 22 Unidades",
+      "category": "leites",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/08/11308.webp",
+      "description": "M 34 G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-y21ct",
+      "name": "Fralda Fofura Baby Mega Xg 24 Unidades",
+      "category": "leites",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/08/11307.webp",
+      "description": "M 34 G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-bx2xs",
+      "name": "Kit Banho Petita Saboneteira+ Escova e Pente Rosa Ref. 1165-rs",
+      "category": "leites",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/10/10115-scaled.webp",
+      "description": "Os produtos Petita são fabricados com matéria-prima de alta qualidade, proporcionando conforto e segurança à criança. O uso do kit banho, como de todo produto destinado a criança, deve ser supervisionado por um adulto. &nbsp; BPA Free 0% Bisfenol A",
+      "inStock": true
+    },
+    {
       "id": "omf-leite-1786070152192-85psz",
       "name": "Dosador de Leite em Pó Pimpolho Rosa Ref. 9400-1",
       "category": "leites",
       "price": 27.99,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/01/10379-Embal.webp",
       "description": "O Dosador Pimpolho de leite em pó é essencial para os passeios com curtos ou longos com o bebê. Possui capacidade para 3 medidas de leite em pó para guardar a quantidade necessária para cada refeição. As divisórias são removíveis para facilitar a hig",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-pobdl",
+      "name": "Fralda Fofura Baby Mega G 28 Unidades",
+      "category": "leites",
+      "price": 27.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/11/12183.jpg",
+      "description": "M 34 G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070312166-j5fcp",
+      "name": "Babete Fralda 5un Muito Mimo",
+      "category": "leites",
+      "price": 27.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/05/Grade-852.webp",
+      "description": "Babete Fralda Muito Mimo Minasrey 100% Algodão Este é um produto da linha Muito Mimo, o babete é feito de pano e parece uma fraldinha. É usado quando você amamenta ou dá mamadeira para o bebê, evitando que se o leite voltar, manche a roupinha dele. &",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-jr97u",
+      "name": "Fórmula Infantil Ninho Fases 1+ Lata 400g",
+      "category": "leites",
+      "price": 29.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/12/5422.jpg",
+      "description": "Emb. Venda ( 01 Unidade) Emb. Caixa Fechada : ( Caixa com 12 Unidades ) Parabéns! Seu pequeno acaba de fazer 1 ano, entrando em uma nova fase da infância! Esse é um estágio crucial da sua autodescoberta, em que começará a ter suas primeiras conquista",
       "inStock": true
     },
     {
@@ -594,6 +909,42 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070307672-1ed5p",
+      "name": "Kit Toalhas Umedecidas Babysec Leve4pague3 192 Lençinhos",
+      "category": "leites",
+      "price": 29.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/12/12439.webp",
+      "description": "A Toalha Babysec A Toalha Umedecida Babysec Ultrafresh foi desenvolvida com suaves ingredientes, ideais para higiene diária e durante a troca de fraldas do seu bebê. Sua fórmula enriquecida com Aloe Vera auxilia na hidratação e remove delicadamente a",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-5cspf",
+      "name": "Óleo Corporal Snoopy Baby Poder da Melanina 200ml",
+      "category": "leites",
+      "price": 31.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/10/8337.webp",
+      "description": "Óleo Corporal Cottonbaby Snoopy Baby Poder da Melanina 200ml Livre de parabenos e corantes; Rápida absorção; Fórmula 100% segura para ser usada desde o primeiro dia de vida; Ideal para massagear o bebê; Hipoalergênico; Para pele rica em melanina; Vit",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-c8b7x",
+      "name": "Kit Touca Luva e Sapatinho Mmbaby",
+      "category": "leites",
+      "price": 34,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1313.webp",
+      "description": "Kit Baby Pimpolho 3 Peças O Kit Baby Pimpolho 3 Peças reúne itens essenciais para manter o bebê protegido e confortável nos primeiros meses de vida. Composto por touca, luvinhas e sapatinhos , é confeccionado em tecido macio e delicado, proporcionand",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070317315-tsnyz",
+      "name": "Tira Leite Lolly 70ml Ref. 7225-01",
+      "category": "leites",
+      "price": 34.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2020/07/2818-embal.webp",
+      "description": "Emb. Venda : (01 Unidade) Emb. Cx. Fechada : (Caixa com 06 Unidades) O Tira Leite Lolly promove a praticidade, higiene e cuidado ao armazenar o leite materno. Facilita o transporte, evita vazamentos e o contato com o cheiro de alimentos na geladeira ",
+      "inStock": true
+    },
+    {
       "id": "omf-leite-1786070145903-pvkvd",
       "name": "Leite em Po Ninho Integral 575g",
       "category": "leites",
@@ -603,12 +954,66 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070286428-t2z5j",
+      "name": "Kit Meia 2 Pares Masc Pimpolho",
+      "category": "leites",
+      "price": 35,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1323.webp",
+      "description": "Kit Meias Pimpolho com 2 Pares O Kit Meias Pimpolho com 2 Pares foi desenvolvido para manter os pezinhos do bebê sempre aquecidos e confortáveis. Confeccionadas com tecido macio e delicado, as meias oferecem excelente ajuste sem apertar, proporcionan",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-ltn7q",
+      "name": "Creme Para Prevenção de Assaduras Granado Dermocalmante 50g",
+      "category": "leites",
+      "price": 35,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/03/6427.jpg",
+      "description": "Creme assaduras dermocalmante bebe pele sensíveis 50g. Tamanho ideal para manter na bolsa do bebê. Previne e trata assaduras de bebês. •Tamanho ideal para manter na bolsa do bebê! previne e trata assaduras de bebês •Alívio rápido e conforto imediato;",
+      "inStock": true
+    },
+    {
       "id": "omf-leite-1786070144109-f3mmz",
       "name": "Fórmula Infantil Nestogeno 2 (+6 Meses) 400g",
       "category": "leites",
       "price": 36,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/10/5406.png",
       "description": "Fórmula Infantil Para Lactentes Nestlé Nestogeno 400G: (Tam. 01) De 0 A 6 Meses. &nbsp; (Tam. 02) De 6 A 12 Meses. &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070291893-nwiov",
+      "name": "Mijão Cos Largo",
+      "category": "leites",
+      "price": 37.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/08/grade-350-7926-27-28.webp",
+      "description": "Calça Mijão Índigo sem Pé A calça sem pé, também conhecida como mijão ou culote, possui efeito mesclado imitando jeans com o cós largo trazendo conforto, combinando perfeitamente com outras peças do vestuário do bebê, como body ou camiseta, além de d",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070316275-9e6w2",
+      "name": "Concha Amamentação Lolly Base Rígida (grátis Concha Mini) Ref.7220-01",
+      "category": "leites",
+      "price": 38,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/07/4431-Embal.jpg",
+      "description": "Grátis! Concha Mini As Conchas Mini são ideais para deixar na bolsa caso seja necessária a troca em algum momento do dia. Pelo fato de ser menor, a quantidade de leite que cabe nela é menor, por issso indicamos seu uso por menores períodos de tempo o",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-qco6u",
+      "name": "Naninha Flannel C/ Prendedor Baby Nice",
+      "category": "leites",
+      "price": 38.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/05/Grade-606.webp",
+      "description": "Naninha Flannel C/ Prendedor Baby Nice &#8211; Naninha é perfeita para acalmar e entreter o seu bebê, além de ser fácil de transportar. CARACTERÍSTICAS &#8211; Ultra Macia &#8211; Não Alérgica &#8211; Toque Suave &#8211; Feito Com Tecido Flannel",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070316275-qfzls",
+      "name": "Concha Amamentação Lolly Base Macia (grátis Concha Mini) Ref.7221-01",
+      "category": "leites",
+      "price": 38.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/07/4432-Embal.jpg",
+      "description": "Grátis! Concha Mini As Conchas Mini são ideais para deixar na bolsa caso seja necessária a troca em algum momento do dia. Pelo fato de ser menor, a quantidade de leite que cabe nela é menor, por isso indicamos seu uso por menores períodos de tempo ou",
       "inStock": true
     },
     {
@@ -630,12 +1035,75 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070298763-rmua9",
+      "name": "Leite Ninho Integral Instantâneo Sachet 750g",
+      "category": "leites",
+      "price": 41.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/05/4066-0.webp",
+      "description": "Escolha a sua gramatura 750g &nbsp; 625g &nbsp; 175g",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308829-w95c0",
+      "name": "Protetor Solar Nivea Sun Protect &amp; Hidrata Fps30 125ml",
+      "category": "leites",
+      "price": 42,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/12/10207.webp",
+      "description": "O que é? NIVEA SUN Protetor Solar Protect &amp; Hidrata FPS 30 é um produto essencial para cuidar da sua pele durante a exposição solar. Para que serve? Com uma fórmula inovadora, este protetor solar combina hidratação intensa com uma proteção altíss",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070317315-wxygk",
+      "name": "Tira Leite Lillo Mamy Ref. 616901",
+      "category": "leites",
+      "price": 42.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/10/778-0.webp",
+      "description": "Tira Leite Lillo &nbsp; &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-9mxpl",
+      "name": "Talco em Gel Granado Bebê Peles Sensíveis 80g",
+      "category": "leites",
+      "price": 45,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13006.webp",
+      "description": "Proteção Absoluta para Peles Sensíveis O Creme Preventivo de AssadurasBepantol Baby Extra Proteção foi desenvolvido especialmente para cuidar das peles mais delicadas e reativas, oferecendo uma barreira protetora reforçada contra as causas das assadu",
+      "inStock": true
+    },
+    {
       "id": "omf-1786069654767-o1s8i",
       "name": "Ninho Zero Lactose Sachet 700g",
       "category": "leites",
       "price": 45.99,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13392.webp",
       "description": "Composto Lácteo Nestlé Ninho Zero Lactose 700g O Nestlé Ninho Zero Lactose 700g é um composto lácteo desenvolvido especialmente para pessoas com restrição à lactose, oferecendo o sabor e a qualidade de Ninho em uma fórmula sem lactose. Rico em vitami",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070291893-8c0er",
+      "name": "Conjunto 2un Menino Bamboolê Cod.422",
+      "category": "leites",
+      "price": 46.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/09/grade-378-8050-51-52-53.webp",
+      "description": "Conjunto Estampado Os conjuntos de body + calça infantis confeccionados em 100% algodão são escolhas práticas e confortáveis para bebês e crianças pequenas. Essas roupas combinam a maciez e a respirabilidade do algodão, tornando-as ideais para a pele",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070298763-7ycw5",
+      "name": "Fórmula Infantil Ninho Fases 1+ Lata 800g",
+      "category": "leites",
+      "price": 49.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/11/4212-Corrigido.jpg",
+      "description": "Ninho fases 1+ Sachet 800g &nbsp; Lata 800g",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-0lik5",
+      "name": "Protetor Solar Nivea Sun Protect &amp; Hidrata Fps50 125g",
+      "category": "leites",
+      "price": 55,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/12/8796.webp",
+      "description": "O que é? NIVEA SUN Protetor Solar Protect &amp; Hidrata FPS 50 é um produto essencial para cuidar da sua pele durante a exposição solar. Para que serve? Com uma fórmula inovadora, este protetor solar combina hidratação intensa com uma proteção altíss",
       "inStock": true
     },
     {
@@ -657,12 +1125,48 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070287756-5zf8u",
+      "name": "Sandalia Batizado Pimpolho Fem Fase 01 (110381)",
+      "category": "leites",
+      "price": 58,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/04/Grade-1245.jpg",
+      "description": "✨ Estilo e Doçura para os Primeiros Passos! ✨ A Sandália Baby Pimpolho Branca com Dourado é o toque de magia que faltava no enxoval da sua pequena. Combinando o conforto que a Pimpolho garante com um design digno de uma princesa! Por que você vai ama",
+      "inStock": true
+    },
+    {
       "id": "omf-leite-1786070152192-fusf9",
       "name": "Coletor de Leite Materno Adoleta Babê 100% Silicone 1443.014",
       "category": "leites",
       "price": 59.9,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13021-embal.jpg",
       "description": "Cuidados com a Mamãe Coletor de Leite Materno Adoleta Bebê 100% Silicone • Coleta natural por sucção Praticidade e conforto na amamentação Não é necessário bombear: o leite flui naturalmente com a sucção suave. 100% Silicone Material macio, confortáv",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070316275-fjcs7",
+      "name": "Coletor de Leite Materno Lolly 100% Silicone Ref.7228-01",
+      "category": "leites",
+      "price": 65,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/07/4433-1.jpg",
+      "description": "Emb. Venda ( 01 Unidade) Emb. Cx. Fechada : ( Caixa com 06 Unidades ) O Coletor de Leite Materno Lolly auxilia a mamãe na hora da amamentação, coletando o excesso de leite da mama oposta, sem a necessidade do uso das mãos. Não é necessário bombear, p",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287757-vv0ag",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Econômica G L16p14un",
+      "category": "leites",
+      "price": 69.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/11/12202.webp",
+      "description": "M 16 G 16 XG 16",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287757-2iu5p",
+      "name": "Protetor Solar Nivea Sun Protect &amp; Hidrata Fps 70 200ml + Prot Facial 70fps",
+      "category": "leites",
+      "price": 75,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/12/12427.webp",
+      "description": "Kit Nivea Sun &#8211; Rotina de Proteção Completa FPS 70 O Kit Promocional Nivea Sun oferece a máxima proteção contra os raios UVA/UVB em uma rotina completa para corpo e rosto. Combinando hidratação intensa e controle de oleosidade, este kit garante",
       "inStock": true
     },
     {
@@ -675,12 +1179,93 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070287756-hwf6w",
+      "name": "Fralda Personal Pants Total Protect Hiper Xg 64un",
+      "category": "leites",
+      "price": 89.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/01/12527.webp",
+      "description": "M 80 G 70 XG 64",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287757-sg2uc",
+      "name": "Fralda Personal Pants Total Protect Hiper G 70un",
+      "category": "leites",
+      "price": 89.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/01/12525.webp",
+      "description": "M 80 G 70 XG 64",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-ybsy4",
+      "name": "Cadeira Infantil Com Bandeija Plasútil Menina 16712",
+      "category": "leites",
+      "price": 98,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/07/9880.webp",
+      "description": "* A Poltrona com Bandeja Infantil Ursa é um móvel versátil e encantador projetado especialmente para crianças, proporcionando conforto, segurança e diversão em um único produto. Com um design adorável e funcional, esta poltrona oferece um espaço acol",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-pvyew",
+      "name": "Cadeira Infantil Com Bandeija Plasútil Menino 16711",
+      "category": "leites",
+      "price": 98,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/07/9879.webp",
+      "description": "* A Poltrona com Bandeja Infantil Ursa é um móvel versátil e encantador projetado especialmente para crianças, proporcionando conforto, segurança e diversão em um único produto. Com um design adorável e funcional, esta poltrona oferece um espaço acol",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-t641w",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Giga G L32p28 Unidades",
+      "category": "leites",
+      "price": 128,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/11/12197.webp",
+      "description": "M 32 G 32",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-phe83",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Giga M L32p28 Unidades",
+      "category": "leites",
+      "price": 128,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/11/12196.webp",
+      "description": "M 32 G 32",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070317315-aliom",
+      "name": "Bombinha Manual Tira Leite Mamy Adapt Lillo Ref. 617106",
+      "category": "leites",
+      "price": 199.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/10/1484.jpg",
+      "description": "Tira Leite Lillo &nbsp; &nbsp;",
+      "inStock": true
+    },
+    {
       "id": "omf-leite-1786070145903-brsns",
       "name": "Ninho Redutor de Berco Alvinha Acolchoado",
       "category": "leites",
       "price": 210,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/05/Grade-864.webp",
       "description": "Ninho Redutor de Berço Alvinha A principal função é ser um redutor de berço, já que o recém-nascido pode se sentir pouco à vontade no berço, especialmente nos primeiros meses. O ninho vai complementar o kit berço, proporcionando maior relaxamento par",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-4hvk6",
+      "name": "Cadeira Para Carro Galzerano Otto Ii Cinza 8001cz",
+      "category": "leites",
+      "price": 1150,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/09/11542.jpeg",
+      "description": "Descubra o Cadeira para carro Otto II, projetado para atender às necessidades desde o nascimento até aproximadamente 12 anos, abrangendo os Grupos 0+, 1, 2 e 3. Proporcionando viagens com o máximo conforto e segurança, este assento é a escolha ideal ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-30npc",
+      "name": "Cadeira Para Carro Galzerano Otto Ii Preta 8001pt",
+      "category": "leites",
+      "price": 1180,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/08/9944.jpg",
+      "description": "Descubra o Cadeira para carro Otto II, projetado para atender às necessidades desde o nascimento até aproximadamente 12 anos, abrangendo os Grupos 0+, 1, 2 e 3. Proporcionando viagens com o máximo conforto e segurança, este assento é a escolha ideal ",
       "inStock": true
     },
     {
@@ -1665,12 +2250,120 @@
       "inStock": true
     },
     {
+      "id": "omf-leite2-1786070307672-44k95",
+      "name": "Sabonete Líquido Refil Tralala Baby Hidrata da Cabeça Aos Pés 180ml",
+      "category": "leites",
+      "price": 9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/02/12542.webp",
+      "description": "/* Container adaptável ao layout do seu site */ .desc-container-refil { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #444; line-height: 1.6; padding: 15px; background-color: #f1f8e9; /* Verde Aloe Vera muito claro */ border-r",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-n0fid",
+      "name": "Shampoo Snoopy Baby",
+      "category": "leites",
+      "price": 12,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/Shampoo-Snoopy.webp",
+      "description": "O novo Shampoo Cottonbaby foi elaborado especialmente para a limpeza dos cabelos delicados das crianças, pois possui ingredientes de origem natural, deixando os cabelos do bebê mais macios e com o agradável cheirinho de banho tomado por mais tempo. S",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-rmbgv",
+      "name": "Sabonete Líquido Refil Dove Baby Hidratação Glicerinada 180ml",
+      "category": "leites",
+      "price": 15,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7605.webp",
+      "description": "Nosso Sabonete Líquido da Cabeça aos Pés de Glicerina Baby Dove é hipoalergênico e ajuda a manter a pele saudável desde o primeiro banho do recém-nascido. Comprovadamente minimiza os riscos de alergia com um perfume desenvolvido para a delicada pele ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-jbmqn",
+      "name": "Shampoo Granado Bebê Hipoalergênico Lavanda 250ml",
+      "category": "leites",
+      "price": 17.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7750.webp",
+      "description": "Formulado com tensoativos suaves, o shampoo deixa os fios macios, fáceis de pentear e perfumados. Não irrita os olhos. Especialmente desenvolvido para o cabelo do bebê. Dermatologicamente testado. Livre de parabenos, corantes e ingredientes de origem",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-xka4t",
+      "name": "Shampoo Granado Bebê Hipoalergênico Erva-doce 250ml",
+      "category": "leites",
+      "price": 18.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7752.webp",
+      "description": "O Shampoo Relaxante Camomila foi especialmente desenvolvido para limpar e perfumar os cabelos delicados do bebê. A fragrância traz toda a sutileza da flor combinada com o extrato natural da camomila, que tem propriedades calmante e relaxante, proporc",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-arj6t",
+      "name": "Shampoo Granado Bebê Hipoalergênico Camomila 250ml",
+      "category": "leites",
+      "price": 18.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7751.webp",
+      "description": "O Shampoo Relaxante Camomila foi especialmente desenvolvido para limpar e perfumar os cabelos delicados do bebê. A fragrância traz toda a sutileza da flor combinada com o extrato natural da camomila, que tem propriedades calmante e relaxante, proporc",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-p19zq",
+      "name": "Shampoo Huggies Kids Super Crespinhos 360ml",
+      "category": "leites",
+      "price": 19.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13012.webp",
+      "description": "Higiene Infantil Shampoo Huggies Kids Super Crespinhos Edição Pantera Negra • Curvaturas 3B a 4C Especialmente para Cabelos Crespos e Cacheados Desenvolvido para as necessidades das curvaturas 3B, 3C, 4A, 4B e 4C. Mix de Óleos Nutrição profunda para ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-rpg9w",
+      "name": "Sabonete Liquido Baruel Baby 400ml",
+      "category": "leites",
+      "price": 22.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/07/Grade-733-1.webp",
+      "description": "Sabonete Liquido Xuxinha 400ml &lt;b&gt;Descrições e características &lt;/b&gt; O sabonete líquido com glicerina Baruel baby foi cuidadosamente desenvolvido para limpar e perfumar a pele delicada do bebê e da criança sem agredi-la. • Com Glicerina • ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-23hwg",
+      "name": "Sabonete Líquido Dove Baby Hidratação Glicerinada 200ml",
+      "category": "leites",
+      "price": 23,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7606.webp",
+      "description": "Nosso Sabonete Líquido da Cabeça aos Pés de Glicerina Baby Dove é hipoalergênico e ajuda a manter a pele saudável desde o primeiro banho do recém-nascido. Comprovadamente minimiza os riscos de alergia com um perfume desenvolvido para a delicada pele ",
+      "inStock": true
+    },
+    {
       "id": "omf-leite-1786070143239-kaycj",
       "name": "Copo Treinamento Com Canudo Plasutil Baby Menino 16807",
       "category": "leites",
       "price": 25,
       "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13256.webp",
       "description": "Copo com Canudo e Alças Plasútil Baby O Copo com Canudo Plasútil Baby foi desenvolvido para ajudar na transição da mamadeira para o copo de forma prática e confortável. Possui alças laterais anatômicas , tampa protetora e canudo em silicone, proporci",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-e6ej8",
+      "name": "Shampoo e Condicionador Johnson&#8217;s® Baby 2 em 1 400ml",
+      "category": "leites",
+      "price": 34,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/07/11267.webp",
+      "description": "Johnson’s Kids 2 em 1 Shampoo e Condicionador O Johnson’s Kids 2 em 1 Shampoo e Condicionador foi desenvolvido para proporcionar praticidade no cuidado diário dos cabelos infantis, limpando suavemente enquanto ajuda a desembaraçar os fios. Sua fórmul",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070307672-na0hv",
+      "name": "Kit Shampoo+condicionador Salon Line Kids S.o.s Cachosuva",
+      "category": "leites",
+      "price": 35,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/08/11391.webp",
+      "description": "O Kit de Shampoo e Condicionador #todecacho Kids Uva garante nutrição intensa, maciez e brilho. Ele é multifuncional 2 em 1. O Shampoo Cabelo e Corpo Nutritivo proporciona limpeza sem ressecar, hidratação, nutrição aos fios e à pele para garantir cac",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-qa3i8",
+      "name": "Colonia Cheirinho de Bebe 200ml+sabonete Liq 250ml",
+      "category": "leites",
+      "price": 45,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/04/Grade-1249.webp",
+      "description": "✨ Kit Cheirinho de Bebê: Cuidado e Carinho ✨ O presente perfeito para deixar o seu pequeno(a) sempre perfumado e com a pele macia! 🎁 O que vem no Kit? 🌸 1 Colônia Cheirinho de Bebê (200ml): Fragrância delicada, original e inesquecível. 🧼 1 Sabonet",
       "inStock": true
     },
     {
@@ -1878,6 +2571,636 @@
       "category": "moveis",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23004878/Copinho.jpg",
       "description": "Com o Copinho Dosador de Alimentação com 4 Unidades da Sana Babies alimente seu bebê sem o uso da mamadeira. Características do produto: - Mais prático e higiênico - 100% funcional - 4 copinhos de 40ml Conteúdo da embala",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-f22ca",
+      "name": "Creme Dental Tralala Aventura Menta Fresh ( + 7  Anos ) 50g",
+      "category": "leites",
+      "price": 6,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/10/7193-2.webp",
+      "description": "Emb. Venda ( 01 Unidade) Emb. Cx. Fechada : ( Caixa com 12 Unidades ) Os cuidados com a saúde bucal das crianças são importantes desde cedo. Por isso, nós desenvolvemos a Creme Dental Trá Lá Lá Kids, especialmente para crianças entre 7 e 11 anos. A g",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308829-7azml",
+      "name": "Desodorante Dove Rollon Fem Invisible Dray 50ml",
+      "category": "leites",
+      "price": 9.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/06/11061.jpg",
+      "description": "• Não deixa marcas em até 100 cores de roupas • 48h de proteção contra mau odor e suor • Nosso tradicional ¼ de creme hidratante com óleo protetor • Proteção eficaz e o cuidado de Dove para a pele • Antitranspirante sem álcool e dermatologicamente te",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070313896-0gtx9",
+      "name": "Mingau Mucilon Milho (+6 Meses) Sachê 360g",
+      "category": "leites",
+      "price": 11.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7700.webp",
+      "description": "Emb. Venda : (01 Unidade) Emb. Cx. Fechada : (Caixa com 12 Unidades) Mucilon® de Milho é um cereal infantil que contém NutriPROTECT+, uma combinação exclusiva da Nestlé, de probiótico Bifidus BL* nutrientes essenciais tais como Zinco, Vitamina A, Vit",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-lc79l",
+      "name": "Colônia Flora Nenen Lavanda Sono Relaxante 110ml",
+      "category": "leites",
+      "price": 12.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13005.webp",
+      "description": "Hora do Sono Mais Tranquila A Colônia Infantil Flora Nenen Lavanda Sono Relaxante foi especialmente desenvolvida para perfumar a pele do bebê e ajudar a preparar uma noite de descanso tranquila e aconchegante. Dermatologicamente testada e com ação re",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-jypns",
+      "name": "Condicionador Snoopy Camomila 200ml",
+      "category": "leites",
+      "price": 12.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7620.webp",
+      "description": "Emb. Venda ( 01 Unidade) Emb. Cx. Fechada : ( Caixa com 12 Unidades ) O novo Condicionador Cottonbaby Snoopy Gotas de Camomila foi elaborado especialmente para deixar o cabelo do bebê macio, sedoso e com o cheirinho de banho tomado por mais tempo. Co",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-5zxu4",
+      "name": "Desodorante Aerosol Rexona Fem Cotton 150ml",
+      "category": "leites",
+      "price": 14.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/03/8873.webp",
+      "description": "Rexona Cotton Dry protege 72h contra o suor e odor e te deixa mais confiante para você encarar seus desafios. O Desodorante Antitranspirante Aerosol Feminino Rexona Cotton Dry garante 72 horas de proteção ativada pelo seu movimento e muito mais confi",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-z3bv1",
+      "name": "Meia Bebê Winston Conforto Com Laçinho",
+      "category": "leites",
+      "price": 16,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/10/grade-495.webp",
+      "description": "Meia Bebê Winston Conforto Com Laçinho: Estilo e Conforto Para os Pequenos Pés! Apresentamos as meias bebê Winston, perfeitas para manter os pezinhos do seu bebê confortáveis e estilosos. Com um design encantador e detalhes de laço, estas meias ofere",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-n9ls3",
+      "name": "Desodorante Aerosol Rexona Clinical Masc Invisible 150ml",
+      "category": "leites",
+      "price": 16.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/03/12663.jpg",
+      "description": "Rexona Clinical Aerosol Men Invisible O Rexona Clinical Invisible oferece o máximo desempenho com 96h de proteção antitranspirante. Sua tecnologia Pro-Defense proporciona 3x mais proteção contra o suor e controle total de odor, garantindo segurança e",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308829-gc5sy",
+      "name": "Colônia Kolene Toque de Carinho 200ml",
+      "category": "leites",
+      "price": 17,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/07/9898.webp",
+      "description": "💚 Principais Benefícios: Perfume suave e delicado para uso diário Ajuda a manter a sensação de frescor por mais tempo Ideal para a pele delicada das crianças Fragrância desenvolvida especialmente para o público infantil Aplicação prática através da ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-dbv2w",
+      "name": "Desodorante Aerosol Dove Men+care Eucalipto+menta 150ml",
+      "category": "leites",
+      "price": 17,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/03/8868.webp",
+      "description": "• Desodorante antitranspirante 72 horas de proteção eficaz contra suor e odores • Nova Tecnologia Tripla Ação cuida da sua pele e te protege do suor e mau odor • Fragrância de Eucalipto e Menta de longa duração para axilas cheirosas • Hidratante de o",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070317315-w1t3q",
+      "name": "Mingau Mucilon Multicereais (+6 Meses) Sachê 600g",
+      "category": "leites",
+      "price": 19.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/11/3138.jpg",
+      "description": "Mingau Mucilon Milho 230G: Acima De 6 Meses. Multicereais 230G: Acima De 6 Meses. Multicereais 600G: Acima De 6 Meses.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070317315-yhqxa",
+      "name": "Mingau Mucilon Arroz e Aveia (+6 Meses) Sachê 600g",
+      "category": "leites",
+      "price": 19.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2019/11/1714.jpg",
+      "description": "Mingau Mucilon Arroz E Aveia. 230G: Acima De 6 Meses. 600G: Acima De 6 Meses.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070317315-wgv8g",
+      "name": "Farinha Láctea Nestlé Original Sachê 600g",
+      "category": "leites",
+      "price": 20.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2020/03/2077.webp",
+      "description": "Farinha Láctea Nestlé Original: 210G. 600G.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-9d3db",
+      "name": "Desodorante Aerosol Dove Men+care Invisible Dry 250ml",
+      "category": "leites",
+      "price": 21.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/05/7067.webp",
+      "description": "Vestir sua camisa favorita deve deixar você confortável e confiante. Isso significa que você precisa de um desodorante que evite manchas brancas e amarelas. O Desodorante Aerossol Antitranspirante Dove Men+Care Invisible Dry foi criado para ser antim",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-wg80x",
+      "name": "Body Tematico Baby Cangaceiros",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1306.webp",
+      "description": "🤠🌽 Body Bebê Caipira Fazendinha 🌽🤠 Deixe o seu pequeno pronto para brilhar nas festas juninas com muito estilo e diversão! O Body Bebê Caipira Fazendinha traz uma estampa criativa inspirada no universo sertanejo, com detalhes que lembram a tradic",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-u2y3u",
+      "name": "Body Tematico Junino",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-879.webp",
+      "description": "🌽🎉 Body Junino Baby 🎉🌽 Deixe o primeiro São João do seu bebê ainda mais especial com o Body Junino Baby ! Inspirado nas tradicionais festas juninas, este modelo traz uma estampa divertida com elementos típicos do arraiá, como xadrez, gravatinha, ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-odzro",
+      "name": "Colônia Kolene Baby Lavanda 200ml",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13004.webp",
+      "description": "Suave Cuidado para seu Bebê A Kolene Baby Colônia Lavanda traz o carinho da natureza para a rotina do seu pequeno. Com uma fragrância delicada e reconfortante, foi especialmente formulada para a pele sensível do bebê. Hipoalergênica e testada dermato",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-iq96f",
+      "name": "Condicionador Granado Bebê Hipoalergênico Camomila 250ml",
+      "category": "leites",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7755.webp",
+      "description": "O Condicionador Relaxante Camomila foi especialmente desenvolvido para proteger e hidratar os cabelos delicados do bebê. A fragrância traz toda a sutileza da flor combinada com o extrato natural da camomila, que tem propriedades calmante e relaxante,",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308829-orams",
+      "name": "Ativador de Cachos Kids Salon Line Sos Cachos Chiclete 300ml",
+      "category": "leites",
+      "price": 23,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/01/10380.webp",
+      "description": "O Ativador de Cachos S.O.S Cachos Kids Hidratação Chiclete é 2 em 1, condiciona e finaliza os fios, promovendo definição intensa, fácil desembaraço e super-hidratação. Além disso, deixa os cachinhos com brilho, macios, sem frizz e com cheirinho incrí",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-oipnu",
+      "name": "Repelente Above Adulto Spray 200ml",
+      "category": "leites",
+      "price": 23,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/04/8911.webp",
+      "description": "Para que serve o Repelente de Insetos Above Adulto Spray de 200ml? O Repelente de Insetos Above Adulto Spray 200ml serve para proteger a pele contra picadas de insetos, como moscas e mosquitos, incluindo o Aedes aegypti, permitindo que você desfrute ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-tg27z",
+      "name": "Condicionador Dove Baby Hipoalergenico Hidratação Enriquecida 200ml",
+      "category": "leites",
+      "price": 23,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/03/8888.webp",
+      "description": "• Hipoalergênico; • pH neutro; • Sem lágrimas, corantes, parabenos, ftalatos, sulfatos; • Suave até para recém-nascidos; • Ajuda a repor a hidratação essencial aos cabelos; • Testado por dermatologista, oftalmologista e pediatra. Nosso Condicionador ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-4f3jm",
+      "name": "Condicionador Salon Line S.o.s Cahos Kids Hidratação 300ml",
+      "category": "leites",
+      "price": 24.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/03/8896.webp",
+      "description": "Emb. Venda ( 01 Unidade) Emb. Cx. Fechada : ( Caixa com 12 Unidades ) O O Condicionador S.O.S Cachos Kids foi feito para facilitar a rotina dos pais no cuidado dos cabelos dos pequenos. Ele hidrata profundamente os cachinhos e os crespinhos e ainda p",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070305603-602b2",
+      "name": "Condicionador Salon Line Meu Liso Kids 300ml",
+      "category": "leites",
+      "price": 24.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13399.webp",
+      "description": "Condicionador Desembaraçante Meu Liso Kids Salon Line 300ml O Condicionador Desembaraçante Meu Liso Kids Salon Line foi desenvolvido especialmente para cuidar dos cabelos das crianças com suavidade, deixando os fios macios, hidratados, brilhantes e m",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070296312-rt57g",
+      "name": "Balde Plasútil Bear Menino 8l 16714",
+      "category": "leites",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/05/10759.webp",
+      "description": "Volume: 8 L Dimensão: (Comp x Larg x Alt): 30 x 29 x 27 cm A nova linha da Plasútil &#8211; Bear &#8211; é minimalista e lúdica, com cores suaves que transmitem serenidade e aconchego, os produtos para composição do enxoval são funcionais e acompanha",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070312166-gsgnb",
+      "name": "Protetor de Mamilo Adoleta Bebê Ref. 1424-035",
+      "category": "leites",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/03/8855.webp",
+      "description": "Os Protetores de Mamilo Adoleta Bebê ajudam a mamãe no processo de amamentação. Indicado em casos de: descida superativa, problemas de pega, mamilo invertido ou plano. Kit com 2 protetores Feito 100% em silicone fino e macio Com orificios para a vazã",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070309720-r230o",
+      "name": "Gelatina Kids Salon Line S.o.s Cachos Hidratação 400g",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/12/8748.webp",
+      "description": "A Gelatina Ativadora de Cachos S.O.S Cachos Kids promove definição intensa e hidratação aos fios, além de auxiliar na finalização de penteados, deixando os cachinhos macios, sem frizz e com brilho. É hipoalergênica e dermatologicamente testada. Para ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-1p65k",
+      "name": "Hidratante Granado Bebê Lavanda 120ml",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/03/6432.jpg",
+      "description": "Tradicional Lavanda Camomila Sensível",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-itxpy",
+      "name": "Hidratante Granado Bebê Camomila 120ml",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/03/6431.jpg",
+      "description": "Tradicional Lavanda Camomila Sensível",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-5lazz",
+      "name": "Hidratante Granado Bebê Tradicional 120ml",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/03/6430.jpg",
+      "description": "Tradicional Lavanda Camomila Sensível",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070315289-kd8n9",
+      "name": "Body Manga Curta Silkado Gg Preto Rock (12 À 18 Meses) Ref. 2038-gg",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/09/colecao-2038-rock.png",
+      "description": "Tamanhos &nbsp; &nbsp; Cores &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070315290-e9m1x",
+      "name": "Body Manga Curta Silkado G Preto Rock (10 À 12 Meses) Ref. 2038-g",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/09/colecao-2038-rock.png",
+      "description": "Tamanhos &nbsp; &nbsp; Cores &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070315290-wz9dv",
+      "name": "Body Manga Curta Silkado M Preto Rock (07 À 09 Meses) Ref. 2038-m",
+      "category": "leites",
+      "price": 26,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/09/colecao-2038-rock.png",
+      "description": "Tamanhos &nbsp; &nbsp; Cores &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-mkk8s",
+      "name": "Colônia Cheirinho de Bebê",
+      "category": "leites",
+      "price": 27.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/06/7633-7634-7635-7636-7637-7638-7639-7640-7641.webp",
+      "description": "Proporciona uma gostosa sensação de aconchego, deixando a pele com aquele toque de hidratação, conferindo maciez e suavidade. É confortável e encanta pela sua deliciosa fragrância, que é aceita por todos que amam cheirinho de bebê. •Testada e aprovad",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-p6ecr",
+      "name": "Meia Calca Fio 20 Inf Lacinhos Winston",
+      "category": "leites",
+      "price": 29.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/10/grade-498.webp",
+      "description": "Meia-Calça Fio 20 Infantil Lacinhos Winston: Estilo e Conforto para as Pequenas Princesas! Apresentamos a encantadora meia-calça infantil com lacinhos Winston, uma opção perfeita para adicionar um toque de charme ao visual das pequenas. Com um tecido",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308829-mbu2q",
+      "name": "Gelatina Kids Salon Line #todecacho Maracujá 550g",
+      "category": "leites",
+      "price": 29.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/01/10472.webp",
+      "description": "A Gelatina #todecacho Kids Hidratante Maracujá garante cachinhos definidos, brilhantes, hidratados e com fixação duradoura. Contém filtro solar e é dermatologicamente testada.. A Gelatina #todecacho Kids Hidratante Maracujá, além do cheirinho fresco ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308829-xg3bi",
+      "name": "Gelatina Kids Salon Line #todecacho Melão 550g",
+      "category": "leites",
+      "price": 29.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/01/10471.webp",
+      "description": "A Gelatina #todecacho Kids Antifrizz Melão garante cachinhos hidratados, volumosos e com fixação flexível. Contém filtro solar e é dermatologicamente testada. A Gelatina #todecacho Kids Antifrizz, além do cheirinho delicioso de melão, possui óleo de ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-xdgb9",
+      "name": "Kit Saquinho Maternidade 3un 30x35cm Reininho Encantado Rosa Ref. 327405",
+      "category": "leites",
+      "price": 33.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4734.jpg",
+      "description": "Kit Saquinho Maternidade 3 Unidades 30 x 35cm Reininho Encantado &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-yigpl",
+      "name": "Kit Saquinho Maternidade 3un 30x35cm Reininho Encantado Azul Ref. 327404",
+      "category": "leites",
+      "price": 33.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4733.jpg",
+      "description": "Kit Saquinho Maternidade 3 Unidades 30 x 35cm Reininho Encantado &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-63y4z",
+      "name": "Capa de Carrinho Tam Único Reininho Encantado Azul Ref. 323204",
+      "category": "leites",
+      "price": 34.8,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4735.jpg",
+      "description": "Capa De Carrinho Reininho Encantado Azul &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287757-pm3k5",
+      "name": "Kit Refeição Portatil Tigela+colher Pimpolho",
+      "category": "leites",
+      "price": 35,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/12/Grade-1167.webp",
+      "description": "☁️ Prato Quadrado com Divisórias Pimpolho Este é o Prato Quadrado com Divisórias Pimpolho , ideal para a alimentação infantil com praticidade e organização . O prato possui três compartimentos distintos , permitindo separar diferentes tipos de alimen",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287756-mjxff",
+      "name": "Cueiro Ajustável Alvinha 70x62cm Azul Ref. 3627-11",
+      "category": "leites",
+      "price": 39.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/03/12621.webp",
+      "description": "🌙 Noites de Sono Tranquilas e Protegidas 🌙 O Cueiro Ajustável Alvinha é o segredo para um soninho mais profundo! Ele envolve o bebê com carinho, simulando o aconchego do útero e evitando que os movimentos involuntários (sustos) despertem o pequeno.",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-he9et",
+      "name": "Creme de Pentear Kids Salon Line Sos Cachos Hidratação 5em1 1kg",
+      "category": "leites",
+      "price": 39.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/01/10382.webp",
+      "description": "O Creme para Pentear S.O.S Cachos Kids foi especialmente desenvolvido para hidratar, controlar o frizz e o volume, facilitando o desembaraço e a auxiliando no volume dos cabelos das crianças, deixando-os macios, hidratados, sem frizz e brilhantes. Pa",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-46lra",
+      "name": "Hidratante Granado Bebê Peles Sensíveis 120ml",
+      "category": "leites",
+      "price": 39.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/03/6429.jpg",
+      "description": "Tradicional Lavanda Camomila Sensível",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070310611-k7myj",
+      "name": "Creme de Pentear Johnson&#8217;s® Balckinho Poderoso 200ml",
+      "category": "leites",
+      "price": 45,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/05/7021.webp",
+      "description": "💚 Johnson&#8217;s Kids Blackinho Poderoso Creme para Pentear 200ml 💚 O Johnson&#8217;s Kids Blackinho Poderoso Creme para Pentear foi especialmente desenvolvido para cuidar dos cabelos crespos e cacheados das crianças, ajudando a manter os fios def",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070312166-7n4cb",
+      "name": "Alimentador de Silicone Pimpolho",
+      "category": "leites",
+      "price": 46,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/01/Grade-796.webp",
+      "description": "Essa colher dosadora é 2 em 1, pois além de colher, ela armazena a papinha e vai dosando e liberando a medida que o bebê se alimenta. Feita em silicone macio, vem também como tampa protetora higiênica que a torna ideal para viagens. &#8216;Também ind",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-jgy84",
+      "name": "Meia C/ Sola Cano Alto Pimpolho Fem",
+      "category": "leites",
+      "price": 50,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/Grade-1331-1.webp",
+      "description": "Meia com Sola Cano Alto Pimpolho – Antiderrapante A Meia com Sola Cano Alto Pimpolho foi desenvolvida para proporcionar mais conforto, segurança e liberdade nos primeiros passos da criança. Produzida com predominância de poliamida , é leve, macia, re",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-msq1t",
+      "name": "Meia C/ Sola Cano Alto Urso Polar Masc",
+      "category": "leites",
+      "price": 50,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/Grade-1329.webp",
+      "description": "Meia com Sola Cano Alto Pimpolho – Antiderrapante A Meia com Sola Cano Alto Pimpolho foi desenvolvida para proporcionar mais conforto, segurança e liberdade nos primeiros passos da criança. Produzida com predominância de poliamida , é leve, macia, re",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070308830-x7cyc",
+      "name": "Kit 10 Toalhas Umedecida Mili Love&amp;care Com 48 Unidades Cada",
+      "category": "leites",
+      "price": 66,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/07/9836-1.webp",
+      "description": "Caixa Toalhas Umedecidas Mili Love &amp; Care Premium 480 Unidades A exclusiva Caixa Econômica Mili Love &amp; Care Premium foi desenvolvida para oferecer praticidade, economia e cuidado no dia a dia do bebê. O kit contém 10 pacotes com 48 toalhas um",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-3nwde",
+      "name": "Berço Portátil 95x45cm Com Mosquiteiro Baby Nice Verde Ref. 5376-03",
+      "category": "leites",
+      "price": 81.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4633.webp",
+      "description": "Berço Portátil 95 x 45cm Com Mosquiteiro Reininho Encantado Bege &nbsp; &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-li7gr",
+      "name": "Berço Portátil 95x45cm Com Mosquiteiro Baby Nice Rosê Ref. 5376-19",
+      "category": "leites",
+      "price": 81.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4632.jpg",
+      "description": "Berço Portátil 95 x 45cm Com Mosquiteiro Reininho Encantado Rosê &nbsp; &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-kwuk2",
+      "name": "Berço Portátil 95x45cm Baby Nice Com Mosquiteiro Azul Marinho Ref. 5376-18",
+      "category": "leites",
+      "price": 81.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4631-1.jpg",
+      "description": "Berço Portátil 95 x 45cm Com Mosquiteiro Reininho Encantado Azul &nbsp; &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-kka4m",
+      "name": "Ninho Redutor de Berço Tam. Único Baby Nice Cinza Ref. 342214",
+      "category": "leites",
+      "price": 84,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4640.jpg",
+      "description": "Ninho Redutor De Berço Baby Nice &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070297656-zcjti",
+      "name": "Ninho Redutor de Berço Tam. Único Baby Nice Bege Ref. 342207",
+      "category": "leites",
+      "price": 84,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4639.jpg",
+      "description": "Ninho Redutor De Berço Baby Nice &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070298763-d7ly9",
+      "name": "Ninho Redutor de Berço Tam. Único Baby Nice Rosa Bebê Ref. 342205",
+      "category": "leites",
+      "price": 84,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4637.jpg",
+      "description": "Ninho Redutor De Berço Baby Nice &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070298763-1x3mx",
+      "name": "Ninho Redutor de Berço Tam. Único Baby Nice Azul Marinho Ref. 342218",
+      "category": "leites",
+      "price": 84,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4636.jpg",
+      "description": "Ninho Redutor De Berço Baby Nice &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070298763-0e2hq",
+      "name": "Ninho Redutor de Berço Tam. Único Baby Nice Azul Bebê Ref. 342204",
+      "category": "leites",
+      "price": 84,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4635.jpg",
+      "description": "Ninho Redutor De Berço Baby Nice &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070298763-petav",
+      "name": "Ninho Redutor de Berço Tam. Único Baby Nice Rosê Ref. 342219",
+      "category": "leites",
+      "price": 84,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2021/08/4638.jpg",
+      "description": "Ninho Redutor De Berço Baby Nice &nbsp;",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-ke1bq",
+      "name": "Vestido Infantil Malha Com Tule Poá",
+      "category": "leites",
+      "price": 84.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/10/grade-470-8399-8400-8451-8456.webp",
+      "description": "Vestido Infantil em Malha com Tule Poá: Encanto e Conforto para a Sua Princesa! Este vestido encantador oferece: Malha Confortável: Feito com um tecido macio e respirável, garantindo o conforto da sua princesa durante todo o dia. Detalhes de Tule Poá",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-heoe2",
+      "name": "Cadeira Infantil Com Bandeija Plasútil Ursa 18427",
+      "category": "leites",
+      "price": 98,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13264.webp",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-1ywta",
+      "name": "Cadeira Infantil Com Bandeija Plasútil Urso 18426",
+      "category": "leites",
+      "price": 98,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13263.webp",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-vf1ui",
+      "name": "Roupa Íntima Bigfral Moviment G/xg 32un",
+      "category": "leites",
+      "price": 100,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2024/12/10185.webp",
+      "description": "A Bigfral Moviment Unissex é a roupa íntima ideal para incontinência moderada a intensa para homens e mulheres. Discrição e conforto para você compartilhar a vida. Tecnologia: Sua exclusiva Tecnologia Wet Block absorve o líquido rapidamente, mantendo",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-j7xgs",
+      "name": "Conjunto Fem Body Quadrile Saia Malha +shorts",
+      "category": "leites",
+      "price": 100,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/10/grade-455-8354-59-61.webp",
+      "description": "Conjunto Infantil Menina Body Quadrile Saia Malha + Shorts: Estilo e Conforto em uma Única Escolha! Apresentando: Body Quadrile em Malha: Macio e confortável, oferecendo liberdade de movimento. Saia com Shorts Integrado: Design moderno e prático, per",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070289143-hkuce",
+      "name": "Maiô Infantil Tchibum Magic",
+      "category": "leites",
+      "price": 112,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2025/11/Grade-1112.webp",
+      "description": "🦄 Maiô Infantil KAMYLUS &#8211; Unicórnios e Franjas Apresentamos o encantador Maiô Infantil KAMYLUS , a escolha perfeita para as pequenas fashionistas brilharem na praia ou piscina! 🌟 Design Mágico: Fundo em azul marinho com uma estampa vibrante d",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287756-ua63w",
+      "name": "Roupa Intima Tena Confort Super Giga P/m 42un",
+      "category": "leites",
+      "price": 149.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13144.webp",
+      "description": "P/M 42 G/XG 42",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070287756-ydthq",
+      "name": "Roupa Intima Tena Confort Super Giga G/xg 42un",
+      "category": "leites",
+      "price": 150,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13143.webp",
+      "description": "P/M 42 G/XG 42",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070290644-9pcht",
+      "name": "Saída Maternidade 8 Peças Baby",
+      "category": "leites",
+      "price": 150,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2023/11/grade-504.webp",
+      "description": "Saída Maternidade 8 Peças Baby: Conforto e Estilo para o Seu Pequeno Chegar com Elegância! Este conjunto encantador inclui: Macacão e Touca: Feitos com tecidos suaves para manter o bebê confortável e aconchegante. Manta e Luvas: Proporcionam calor ex",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-12yqq",
+      "name": "Saída Maternidade Manta Vestido e Calça Jacquard Rn Amarelo",
+      "category": "leites",
+      "price": 180,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13288.webp",
+      "description": "Kit Maternidade Pimpolho – Vestido, Calça e Manta em Tricô O Kit Maternidade Pimpolho é uma escolha encantadora para receber a recém-nascida com muito conforto, elegância e delicadeza. Composto por vestido, calça e manta , o conjunto é confeccionado ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-9yk2s",
+      "name": "Saída Maternidade Manta+macacão e Gorro Jacquard Rn Branco",
+      "category": "leites",
+      "price": 180,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13287.webp",
+      "description": "Kit Saída Maternidade Pimpolho Branco – Macacão, Gorro e Manta O Kit Saída Maternidade Pimpolho é a escolha perfeita para receber o bebê com muito conforto, elegância e delicadeza. Composto por macacão, gorro e manta , o conjunto possui acabamento em",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-4h956",
+      "name": "Cadeira Para Carro Drc Galzerano Tori Preto 8000pt",
+      "category": "leites",
+      "price": 899,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13335.webp",
+      "description": "Cadeira para Carro DRC Galzerano Tori Preto 8000PT A Cadeira para Carro Galzerano Tori 8000PT foi desenvolvida para acompanhar o crescimento da criança desde o nascimento até os 36 kg , oferecendo conforto, segurança e praticidade em todas as fases. ",
+      "inStock": true
+    },
+    {
+      "id": "omf-leite2-1786070286428-x50it",
+      "name": "Cadeira Para Carro Galzerano I-fix 360º Preto 8021pt",
+      "category": "leites",
+      "price": 1600,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13337.webp",
+      "description": "Cadeira para Carro Galzerano I-Fix 360º Preto 8021PT A Cadeira para Carro Galzerano I-Fix 360º 8021PT reúne as mais modernas tecnologias de segurança para acompanhar o crescimento da criança desde o nascimento até aproximadamente 12 anos de idade , s",
       "inStock": true
     },
     {
