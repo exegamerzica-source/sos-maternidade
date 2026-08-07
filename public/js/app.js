@@ -398,6 +398,19 @@ function handleCheckout() {
   const message = buildWhatsAppMessage(formData);
   const encoded = encodeURIComponent(message);
   const url = `https://wa.me/${storeConfig.whatsapp}?text=${encoded}`;
+
+  // Dispara a conversão do Google Ads
+  if (typeof gtag === 'function') {
+    const subtotal = getCartSubtotal();
+    const total = subtotal + storeConfig.deliveryFee;
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18270028632/5bHwCOCavd0cENiG6odE',
+      'value': total,
+      'currency': 'BRL',
+      'transaction_id': ''
+    });
+  }
+
   window.open(url, '_blank');
 }
 
