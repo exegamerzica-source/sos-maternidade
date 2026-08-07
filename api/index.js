@@ -63,6 +63,14 @@ app.use(session({
 //  Auth Guard
 // ──────────────────────────────────────────────
 function requireAdmin(req, res, next) {
+  const auth = req.headers.authorization;
+  if (auth && auth.startsWith('Bearer ')) {
+    const pass = auth.split(' ')[1];
+    const db = readDB();
+    const correct = process.env.ADMIN_PASSWORD || db.admin.password;
+    if (pass === correct) return next();
+  }
+  
   if (req.session && req.session.isAdmin === true) return next();
   return res.status(401).json({ error: 'Acesso negado. Faça login primeiro.' });
 }
@@ -95,6 +103,14 @@ app.get('/api/config', (_req, res) => {
 
 // GET /api/admin/check  — is session authenticated?
 app.get('/api/admin/check', (req, res) => {
+  const auth = req.headers.authorization;
+  if (auth && auth.startsWith('Bearer ')) {
+    const pass = auth.split(' ')[1];
+    const db = readDB();
+    const correct = process.env.ADMIN_PASSWORD || db.admin.password;
+    if (pass === correct) return res.json({ isAdmin: true });
+  }
+
   res.json({ isAdmin: !!(req.session && req.session.isAdmin) });
 });
 

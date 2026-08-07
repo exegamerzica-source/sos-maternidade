@@ -55,6 +55,7 @@ async function doLogin() {
     const data = await res.json();
 
     if (res.ok && data.success) {
+      localStorage.setItem('adminPass', pwd);
       errEl.classList.add('hidden');
       showDashboard();
       await Promise.all([loadProducts(), loadConfig()]);
@@ -77,6 +78,7 @@ function showLoginError(msg) {
 }
 
 async function doLogout() {
+  localStorage.removeItem('adminPass');
   await fetch('/api/admin/logout', { method: 'POST' });
   document.getElementById('dashboard').classList.add('hidden');
   document.getElementById('login-screen').classList.remove('hidden');
@@ -460,6 +462,12 @@ function showConfigMsg(msg, type) {
 // ──────────────────────────────────────────────
 async function apiFetch(url, options = {}) {
   try {
+    options.headers = options.headers || {};
+    const pass = localStorage.getItem('adminPass');
+    if (pass) {
+      options.headers['Authorization'] = `Bearer ${pass}`;
+    }
+
     const res = await fetch(url, options);
 
     // Session expired
