@@ -36,6 +36,33 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069655576-0lvkt",
+      "name": "Fralda Cremer Baby Roupinha Jumbo Xg 20 Unidades",
+      "category": "fraldas",
+      "price": 26.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13266.webp",
+      "description": "M 26 G 22 XG 20 XXG 18",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-ko3z6",
+      "name": "Fralda Cremer Shortinho Jumbo Xxg 18 Unidades",
+      "category": "fraldas",
+      "price": 26.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13252.webp",
+      "description": "M 26 G 22 XG 20 XXG 18",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656693-g16xl",
+      "name": "Fralda Cremer Baby Roupinha Jumbo G 22 Unidades",
+      "category": "fraldas",
+      "price": 26.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13202.webp",
+      "description": "M 26 G 22 XG 20 XXG 18",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069172066-abz4",
       "name": "Boia Fralda Stitch",
       "price": 29.9,
@@ -72,6 +99,33 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069658495-ho2lj",
+      "name": "Fralda Huggies Pants Rápida Absorção Xxg 22un",
+      "category": "fraldas",
+      "price": 36.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13138.webp",
+      "description": "G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-fj7vh",
+      "name": "Fralda Huggies Pants Rápida Absorção Xg 24un",
+      "category": "fraldas",
+      "price": 36.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13137-1.webp",
+      "description": "G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-cvt3t",
+      "name": "Fralda Huggies Pants Rápida Absorção G 28un",
+      "category": "fraldas",
+      "price": 36.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13136.webp",
+      "description": "G 28 XG 24 XXG 22",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069172254-5otk",
       "name": "Kit Fralda com Bainha 3 Unidades Dengo",
       "price": 39.5,
@@ -87,6 +141,15 @@
       "category": "fraldas",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24278204/Fralda.jpg",
       "description": "Fralda para Piscina Splashers Baby Shark da Pampers oferece mais conforto e segurança para os bebês. Os pequenos adoram brincar na água e com a fralda descartável Splashers as mamães encontram mais pr",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-2lzgm",
+      "name": "Fralda Babysec Ultrasec Mega Xxxg 24 Unidades",
+      "category": "fraldas",
+      "price": 39.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13275.webp",
+      "description": "P 42 M 38 G 32 XG 30 XXG 28 XXXG 24",
       "inStock": true
     },
     {
@@ -150,6 +213,42 @@
       "category": "fraldas",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24318268/Kit.jpg",
       "description": "O Kit Fralda Select com Bainha 5 Unidades da Minasrey essencial nos primeiros meses de vida do seu beb . Composto por 5 pe as, pode ser utilizada de diversas formas, como: cobrir a crian a durante passeios e usa-l no omb",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-k1vkq",
+      "name": "Fralda Cremer Baby Shortinho Hiper G 44 Unidades",
+      "category": "fraldas",
+      "price": 49.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13265.webp",
+      "description": "M 52 G 44 XG 40 XXG 36",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657524-812he",
+      "name": "Fralda Cremer Baby Shortinho Hiper Xxg 36 Unidades",
+      "category": "fraldas",
+      "price": 49.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13199.webp",
+      "description": "M 52 G 44 XG 40 XXG 36",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-ec83o",
+      "name": "Fralda Cremer Baby Shortinho Hiper Xg 40 Unidades",
+      "category": "fraldas",
+      "price": 49.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13159.webp",
+      "description": "M 52 G 44 XG 40 XXG 36",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-691iv",
+      "name": "Fralda Cremer Baby Shortinho Hiper M 52 Unidades",
+      "category": "fraldas",
+      "price": 49.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13158.webp",
+      "description": "M 52 G 44 XG 40 XXG 36",
       "inStock": true
     },
     {
@@ -270,12 +369,57 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069654767-84i6h",
+      "name": "Fralda Huggies Proteção Acolchoada Shortinho Hiperzinha M 52 Unidades",
+      "category": "fraldas",
+      "price": 65,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13401.webp",
+      "description": "M 52 G 46 XG 42 XXG 38",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-956jh",
+      "name": "Fralda Huggies Proteção Acolchoada Shortinho Hiperzinha Xxg 38 Unidades",
+      "category": "fraldas",
+      "price": 65,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13269.webp",
+      "description": "M 52 G 46 XG 42 XXG 38",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-1jjeg",
+      "name": "Fralda Huggies Proteção Acolchoada Shortinho Hiperzinha Xg 42 Unidades",
+      "category": "fraldas",
+      "price": 65,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13268.webp",
+      "description": "M 52 G 46 XG 42 XXG 38",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-ajn0x",
+      "name": "Fralda Huggies Proteção Acolchoada Shortinho Hiperzinha  G 46 Unidades",
+      "category": "fraldas",
+      "price": 65,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13267.webp",
+      "description": "M 52 G 46 XG 42 XXG 38",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068866078-u719a",
       "name": "Fralda Pampers Confort Sec Mega",
       "price": 66.9,
       "category": "fraldas",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24264261/Fralda.jpg",
       "description": "A fralda Pampers Confort Sec possui máxima absorção e mantém seu bebê 2x mais seco e arejado quando comparado às fraldas comuns. Oferece também: - Canais de ar que permitem que o ar circule livremente",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-q95bw",
+      "name": "Fralda Babysec Ultrasec Hiper Xxxg 42 Unidades",
+      "category": "fraldas",
+      "price": 67.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13276.webp",
+      "description": "P 72 M 68 G 60 XG 56 XXG 48 XXXG 42",
       "inStock": true
     },
     {
@@ -297,12 +441,30 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069658495-2xabx",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Econômica M L16p14un",
+      "category": "fraldas",
+      "price": 69.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13147.webp",
+      "description": "M 16 G 16 XG 16",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069172202-wjq8",
       "name": "Kit Fralda de Ombro Vovó com 3 Unidades",
       "price": 76.9,
       "category": "fraldas",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24281179/Kit.jpg",
       "description": "O Kit Fralda de Ombro 3 Unidades Vov Come o de Vida, essencial nos primeiros meses de vida do seu beb . Composto por 3 pe as com lindo bordado que podem ser utilizadas de diversas formas, como: cobrir a crian a durante p",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-8izy8",
+      "name": "Fralda Geriatrica Roupa Intima Tena Confort Hiper P/m L24p21un",
+      "category": "fraldas",
+      "price": 79.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13151.webp",
+      "description": "Indicado para Homens e Mulheres Incontinência Moderada a Severa Formato Roupa Íntima (Pants) A TENA Pants Confort é uma roupa íntima descartável desenvolvida para proporcionar máxima segurança, conforto e discrição. Com design anatômico e tecido maci",
       "inStock": true
     },
     {
@@ -315,6 +477,33 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069658495-nakyd",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Hiper M L24p21",
+      "category": "fraldas",
+      "price": 99.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13145.jpg",
+      "description": "M 24 G 24",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-j4hkw",
+      "name": "Fralda Geriatrica Roupa Intima Tena Confort Giga G/xg L32p29un",
+      "category": "fraldas",
+      "price": 110,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13149.webp",
+      "description": "P/M 32 G/XG 32",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-pin67",
+      "name": "Fralda Geriatrica Roupa Intima Tena Confort Giga  P/m L32p29un",
+      "category": "fraldas",
+      "price": 110,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13148.jpg",
+      "description": "P/M 32 G/XG 32",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068866037-oylq7",
       "name": "Lixeira Mágica Anti Odor para Fralda - 3366",
       "price": 179.9,
@@ -324,12 +513,66 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069658495-w8pk5",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Super Giga M 48 Unidades",
+      "category": "fraldas",
+      "price": 220,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13141.webp",
+      "description": "M 48 G 48 Conheça todas as embalagens da fralda Slip Dermacare",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-9bix2",
+      "name": "Fralda Geriátrica Tena Slip Dermacare Super Giga G 48 Unidades",
+      "category": "fraldas",
+      "price": 220,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13140.webp",
+      "description": "M 48 G 48 Conheça todas as embalagens da fralda Slip Dermacare",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-a721i",
+      "name": "Água de Colônia Nanê Premium Suave 100ml",
+      "category": "leites",
+      "price": 14,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13396.webp",
+      "description": "Água de Colônia Premium Nanê Baby 100ml A Água de Colônia Premium Nanê Baby foi desenvolvida para perfumar delicadamente a pele do bebê, proporcionando uma agradável sensação de frescor e bem-estar durante todo o dia. Sua fórmula suave é hipoalergêni",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-pz6mj",
+      "name": "Talco Infantil Nanê Suave 200g",
+      "category": "leites",
+      "price": 16,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13397.webp",
+      "description": "Talco Infantil Nanê 200g O Talco Infantil Nanê foi desenvolvido para proporcionar uma sensação de conforto e proteção à pele delicada do bebê. Sua fórmula de textura delicada ajuda a manter a pele sequinha, prevenindo o desconforto causado pelo exces",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068963150-hw07q",
       "name": "Porta Leite em Pó Azul",
       "price": 19.9,
       "category": "leites",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23902242/Porta.jpg",
       "description": "O Porta Leite em Pó Azul da Neopan serve para facilitar o dia-a-dia da mãe na hora de guardar o leite em pó para refeição. É ideal para ser levado em viagens e passeios. Possui 3 divisórias para já de",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-o1s8i",
+      "name": "Ninho Zero Lactose Sachet 700g",
+      "category": "leites",
+      "price": 45.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13392.webp",
+      "description": "Composto Lácteo Nestlé Ninho Zero Lactose 700g O Nestlé Ninho Zero Lactose 700g é um composto lácteo desenvolvido especialmente para pessoas com restrição à lactose, oferecendo o sabor e a qualidade de Ninho em uma fórmula sem lactose. Rico em vitami",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-sqia2",
+      "name": "Sabonete Johnson&#8217;s® Baby Camomila 80g",
+      "category": "higiene",
+      "price": 6.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13163-1-1.webp",
+      "description": "Sabonete Glicerinado Johnson’s Baby Camomila 80g O Sabonete Glicerinado Johnson’s Baby Camomila foi desenvolvido para proporcionar uma limpeza delicada e eficaz, cuidando da pele sensível do bebê durante o banho. Sua fórmula com glicerina e extrato d",
       "inStock": true
     },
     {
@@ -351,6 +594,33 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069654767-0qy66",
+      "name": "Creme Preventivo Assaduras Bebepantol Menina 45g",
+      "category": "higiene",
+      "price": 10,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13395.webp",
+      "description": "Creme Preventivo de Assaduras BebêPantol Meninas 45g O Creme Preventivo de Assaduras BebêPantol Meninas foi desenvolvido para proteger a pele delicada da bebê contra assaduras, formando uma barreira protetora que ajuda a prevenir irritações causadas ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-zmja2",
+      "name": "Porta Lenço Umedecido Plasútil Patrulha Canina Menina 17944",
+      "category": "higiene",
+      "price": 11.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13262.webp",
+      "description": "Menino Azul Menina Rosa",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-bl9i3",
+      "name": "Porta Lenço Umedecido Plasútil Patrulha Canina Menino 17920",
+      "category": "higiene",
+      "price": 11.9,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13261.webp",
+      "description": "Menino Azul Menina Rosa",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068865996-wxw6o",
       "name": "Hastes Flexíveis com 60 unidades Buba Care",
       "price": 12.9,
@@ -366,6 +636,24 @@
       "category": "higiene",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/22995241/Refil.jpg",
       "description": "Refil Sabonete Líquido da Cabeça aos Pés 200ml Huggies da linha Extra Suave é livre de lágrimas e foi especialmente desenvolvido para limpar delicadamente os cabelos e a pele do bebê, sem irritar os olhos nem a pele. Sua",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-3q2a7",
+      "name": "Talco Infantil Flora Nenen 180g",
+      "category": "higiene",
+      "price": 14,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13398.webp",
+      "description": "Talco Infantil Flora Nenén 180g O Talco Infantil Flora Nenén foi desenvolvido para proteger e refrescar a pele delicada do bebê, proporcionando uma agradável sensação de conforto após o banho e durante as trocas de fraldas. Sua fórmula ajuda a absorv",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-llvqa",
+      "name": "Toalha Umedecidas Piquitucho Recem-nascido 100 Lenços",
+      "category": "higiene",
+      "price": 14.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13391.webp",
+      "description": "Toalhinhas Umedecidas Piqui Tucho Recém-Nascido 100 Unidades As Toalhinhas Umedecidas Piqui Tucho Recém-Nascido foram desenvolvidas especialmente para a pele delicada dos bebês desde o primeiro dia de vida. Com 99% de água , promovem uma limpeza suav",
       "inStock": true
     },
     {
@@ -429,6 +717,15 @@
       "category": "higiene",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23011978/Sabonete.jpg",
       "description": "O Sabonete Líquido Huggies Camomila foi especialmente desenvolvido para limpar delicadamente os cabelos e a pele do bebê. - Sua exclusiva fórmula com tecnologia Huggies , dermatológica e oftalmologicamente testada, possu",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-42vqy",
+      "name": "Colônia Seiva de Alfazema Jco 115ml",
+      "category": "higiene",
+      "price": 18.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13270.webp",
+      "description": "🌿 Seiva de Alfazema JCO Farma 115ml Frasco de vidro • Lavanda Extra A Seiva de Alfazema JCO Farma proporciona uma fragrância clássica e delicada de lavanda, deixando uma agradável sensação de frescor e bem-estar ao longo do dia. Sua embalagem em vid",
       "inStock": true
     },
     {
@@ -693,12 +990,102 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069655576-ionqo",
+      "name": "Alcool 70% Jcofarma 50ml",
+      "category": "acessorios",
+      "price": 3.5,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13272.webp",
+      "description": "Álcool Etílico 70% JCO Farma 50ml Higienização prática para mãos e superfícies O Álcool Etílico Hidratado 70% JCO Farma é ideal para a higienização das mãos e de pequenas superfícies no dia a dia. Sua concentração de 70% INPM oferece uma limpeza efic",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657524-f0lke",
+      "name": "Teste de Gravidez em Tira Reagente Verifik",
+      "category": "acessorios",
+      "price": 4,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13200.webp",
+      "description": "🤰 Teste de Gravidez Verifik Tira Resultado rápido, confiável e fácil de interpretar O Teste de Gravidez Verifik Tira foi desenvolvido para detectar a presença do hormônio hCG (gonadotrofina coriônica humana) na urina, oferecendo um resultado rápido ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-o6j53",
+      "name": "Alcool 70% Spary Jcofarma 50ml",
+      "category": "acessorios",
+      "price": 4.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13274.webp",
+      "description": "Álcool 70% Spray JCO Farma 50ml Praticidade e higiene na medida certa O Álcool Etílico Hidratado 70% Spray JCO Farma oferece uma forma prática e rápida de higienizar as mãos e pequenas superfícies. Seu frasco com válvula spray proporciona aplicação u",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657524-45456",
+      "name": "Toalha Umedecidas Piquitucho Pratic 48 Unidades",
+      "category": "acessorios",
+      "price": 4.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13201.webp",
+      "description": "&nbsp; As toalhinhas Umedecidas Piquitucho Pratic foram especialmente desenvolvidas para a higiene da pele delicada do bebê. Sua fórmula suave é enriquecida com manteiga de karité*, extrato de aloe vera e vitamina E que hidratam e protegem a pele do ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-oz2qt",
+      "name": "Desodorante Rexona Rollon Men V8 30ml",
+      "category": "acessorios",
+      "price": 5.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13176.webp",
+      "description": "Desodorante Antitranspirante Rexona Men V8 Dry Roll-On 30ml O Rexona Men V8 Dry oferece proteção eficiente contra suor e mau odor, proporcionando mais confiança para encarar os desafios do dia a dia. Sua fórmula conta com a tecnologia exclusiva de Co",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-h5kpn",
+      "name": "Desodorante Rexona Rollon Men Active Dry 30ml",
+      "category": "acessorios",
+      "price": 5.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13175.webp",
+      "description": "Desodorante Antitranspirante Rexona Men Active Dry Roll-On 30ml O Rexona Men Active Dry foi desenvolvido para homens que buscam proteção prolongada contra suor e mau odor, mantendo a sensação de pele seca e confortável durante todo o dia. Com a tecno",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-dct26",
+      "name": "Desodorante Rexona Rollon Fem Bamboo 30ml",
+      "category": "acessorios",
+      "price": 5.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13174.webp",
+      "description": "Desodorante Antitranspirante Rexona Roll-On Bamboo &amp; Aloe Vera 30ml O Rexona Bamboo &amp; Aloe Vera combina proteção eficaz contra o suor e o mau odor com uma fragrância leve e refrescante inspirada na natureza. Sua fórmula oferece cuidado diário",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-db9q2",
+      "name": "Touca Baby Simples",
+      "category": "acessorios",
+      "price": 6,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1316.webp",
+      "description": "Touca Baby Pimpolho RN A Touca Baby Pimpolho RN foi desenvolvida para proteger a cabeça do recém-nascido com muito conforto e delicadeza. Confeccionada em tecido macio e respirável, ajuda a manter a temperatura corporal do bebê nos primeiros dias de ",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069189199-lpre",
       "name": "Chupeta Ortodôntica Fase 2-Polvo",
       "price": 7.9,
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/1827383/Chupeta.jpg",
       "description": "A Chupeta Ortod ntica Fase 2 da Neopan. - Recomendada para beb s maiores de 6 meses. Conte do da embalagem: - 1 Chupeta Ortod ntica Fase 2 da Neopan O MINIST&Eacute;RIO DA SA&Uacute;DE ADVERTE: A CRIAN&Ccedil;A QUE MAMA ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-i7mnh",
+      "name": "Amaciante de Roupas Infantil Vida Macia 500ml",
+      "category": "acessorios",
+      "price": 7.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13390.webp",
+      "description": "Amaciante Vida Macia Hipoalergênico 500ml O Amaciante Vida Macia Hipoalergênico foi desenvolvido especialmente para cuidar das roupinhas de bebês e crianças, proporcionando maciez, delicadeza e um perfume suave sem agredir a pele sensível dos pequeno",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-r0hd3",
+      "name": "Óleo de Girassol Corporal Com Aplicador 100ml",
+      "category": "acessorios",
+      "price": 7.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13271.webp",
+      "description": "🌻 Óleo Corporal de Girassol JCO Farma 100ml Hidratação intensa, nutrição e proteção para a pele O Óleo de Girassol JCO Farma foi desenvolvido para proporcionar hidratação profunda e auxiliar na recuperação da barreira natural da pele. Sua fórmula é ",
       "inStock": true
     },
     {
@@ -726,6 +1113,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23817097/Kit.jpg",
       "description": "Kit Escova para Canudos da Twibex é a forma mais prática e segura de higienizar canudos e válvulas. - O Kit conta com escovas de pontas arredondadas, que evitam danos ao interior do canudo - Cabos com",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-upphf",
+      "name": "Repelente Above Adulto Spray 100ml",
+      "category": "acessorios",
+      "price": 10,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13162.webp",
+      "description": "Para que serve o Repelente de Insetos Above Adulto Spray de 100ml? O Repelente de Insetos Above Adulto Spray 100ml serve para proteger a pele contra picadas de insetos, como moscas e mosquitos, incluindo o Aedes aegypti, permitindo que você desfrute ",
       "inStock": true
     },
     {
@@ -789,6 +1185,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/22986275/Chupeta.jpg",
       "description": "A Chupeta Classic Tam. 2 da Kuka . Livre de BPA. Idade recomendada: - à partir de 6 meses Conteúdo da embalagem: - 01 Chupeta Classic Tam. 2 da Kuka O MINISTÉRIO DA SAÚDE ADVERTE: A CRIANÇA QUE MAMA NO PEITO N&Atilde;O N",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-8rvz4",
+      "name": "Bone Baby Menino",
+      "category": "acessorios",
+      "price": 12,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1315.webp",
+      "description": "Boné Baby O Boné Baby é confeccionado em algodão macio, proporcionando conforto e proteção para o bebê durante os passeios. Seu tecido leve e toque suave ajudam a manter a cabecinha protegida, enquanto a aba frontal oferece proteção extra contra a lu",
       "inStock": true
     },
     {
@@ -888,6 +1293,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/22990061/Mordedor.jpg",
       "description": "O Mordedor Zoo possui texturas que proporcionam conforto às delicadas gengivas do bebê. Características do produto: - Ideal para as pequenas mãozinhas - Acalma, massageia e diverte. - Livre de BPA - Produto certificado p",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-3azi4",
+      "name": "Sabão Líquido Lava Roupas Infantil Vida Macia 500ml",
+      "category": "acessorios",
+      "price": 14.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13389.webp",
+      "description": "Lava-Roupas Vida Macia Hipoalergênico 500ml O Lava-Roupas Vida Macia Hipoalergênico foi desenvolvido especialmente para a lavagem das roupinhas de bebês e crianças, proporcionando uma limpeza eficiente sem agredir os tecidos ou a pele sensível dos pe",
       "inStock": true
     },
     {
@@ -1017,6 +1431,24 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069657525-zzkgu",
+      "name": "Desodorante Aerosol Rexona Clinical Fem Invisible 150ml 96h",
+      "category": "acessorios",
+      "price": 16.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13178.webp",
+      "description": "Rexona Clinical Invisible Aerosol Antitranspirante 150ml O Rexona Clinical Invisible oferece proteção avançada para quem busca máxima confiança durante o dia, sem abrir mão do cuidado com as roupas. Sua fórmula exclusiva proporciona proteção superior",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-xed9q",
+      "name": "Desodorante Aerosol Rexona Clinical Men Intense Fresh 150ml 96h",
+      "category": "acessorios",
+      "price": 16.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13173.webp",
+      "description": "Desodorante Antitranspirante Aerosol Rexona Clinical Intense Fresh Men 150ml O Rexona Clinical Intense Fresh Men foi desenvolvido para homens que precisam de proteção superior contra o suor e o mau odor, mesmo nos dias mais intensos. Sua fórmula avan",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068963283-nzngb",
       "name": "Prendedor de Chupeta Silicone Elefante Cloudy",
       "price": 17.9,
@@ -1098,6 +1530,24 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069656692-xv0h5",
+      "name": "Tigela Plasútil Baby Com Ventosa e Colher Minnie 240ml 7744",
+      "category": "acessorios",
+      "price": 18.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13255.webp",
+      "description": "Prato Infantil com Tampa e Ventosa Plasútil Minnie O Prato Infantil Plasútil Minnie foi desenvolvido para tornar a hora da alimentação mais prática e divertida. Possui ventosa na base , que ajuda a manter o prato firme sobre a mesa, tampa protetora p",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-0qp6l",
+      "name": "Tigela Plasútil Baby Com Ventosa e Colher Mickey 240ml 6957",
+      "category": "acessorios",
+      "price": 18.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13254.webp",
+      "description": "Prato Infantil com Tampa e Ventosa Plasútil Mickey O Prato Infantil Plasútil Mickey foi desenvolvido para tornar a hora da alimentação mais prática e divertida. Possui ventosa na base , que ajuda a manter o prato firme sobre a mesa, tampa protetora p",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068963045-h61tz",
       "name": "Kit Pano de Boca com Prendedor de Chupeta 2 Unidades",
       "price": 19.5,
@@ -1152,6 +1602,51 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069658495-7i2nz",
+      "name": "Body Frases Papai Prepare O Colinho P (0 A 3 Meses)",
+      "category": "acessorios",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13133.webp",
+      "description": "Body Bebê Frases Divertidas Os Body Baby com Frases foram desenvolvidos para deixar os primeiros momentos do seu bebê ainda mais especiais. Com estampas criativas, divertidas e cheias de personalidade, são perfeitos para registrar momentos inesquecív",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-cneub",
+      "name": "Body Frases Familia Preparem O Colinho",
+      "category": "acessorios",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/Grade-1304.webp",
+      "description": "Body Frases Familia Preparem O Colinho",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-tsv1s",
+      "name": "Body Frases Resposta de Oração",
+      "category": "acessorios",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/Grade-1300.webp",
+      "description": "Body Frases Resposta de Oração",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-lwyan",
+      "name": "Body Frases O Senhor Ouviu Minha Oração P ( 0 A 3 Meses)",
+      "category": "acessorios",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13124.webp",
+      "description": "Body Frases O Senhor Ouviu Minha Oração P (0 A 3 Meses)",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-gtu1m",
+      "name": "Body Frases Prova Que Deus Ouve Orações P ( 0 A 3 Meses)",
+      "category": "acessorios",
+      "price": 20,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13122.webp",
+      "description": "Body Frases Prova Que Deus Ouve Orações P (0 A 3 Meses)",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069174734-zdi5",
       "name": "Naninha Urso",
       "price": 20.5,
@@ -1194,6 +1689,51 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/22988051/Mordedor.jpg",
       "description": "Mordedor Controle de Tv da Elka , flexível e fácil de segurar e adequado as mãos do bebê com botões macios, seguros e interativos, texturas que massageiam as gengivas. - Design divertido - Fácil de agarrar Idade recomend",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656693-e9bvh",
+      "name": "Body Tematico Baby Seleção Brasileira",
+      "category": "acessorios",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/Grade-1294-1.webp",
+      "description": "💚💛 Body Bebê Seleção Brasil 💛💚 Para os pequenos torcedores que já nascem apaixonados pelo Brasil! O Body Bebê Seleção Brasil combina conforto, praticidade e muito estilo para acompanhar cada momento especial do seu bebê. Inspirado nas cores da no",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-7dn0z",
+      "name": "Body Tematico Baby Bandeirinha",
+      "category": "acessorios",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1308.webp",
+      "description": "🎈🌽 Body Bebê Arraiá Junino bandeirinha🌽🎈 Alegria, cores e tradição para deixar o São João do seu bebê ainda mais especial! O Body Bebê Arraiá Junino possui uma estampa divertida inspirada nas festas juninas, com bandeirinhas coloridas, remendos c",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-mc8jo",
+      "name": "Body Tematico Baby Cangaceiros",
+      "category": "acessorios",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1306.webp",
+      "description": "🤠🌽 Body Bebê Caipira Fazendinha 🌽🤠 Deixe o seu pequeno pronto para brilhar nas festas juninas com muito estilo e diversão! O Body Bebê Caipira Fazendinha traz uma estampa criativa inspirada no universo sertanejo, com detalhes que lembram a tradic",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-sjpxk",
+      "name": "Body Tematico Meu 1° Arraia Longo",
+      "category": "acessorios",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-884.webp",
+      "description": "🌽🎉 Body Bebê &#8220;Meu Primeiro Arraiá&#8221; 🎉🌽 O primeiro São João merece uma roupa especial! O Body Bebê Meu Primeiro Arraiá foi criado para celebrar essa fase tão encantadora com muito charme, alegria e tradição junina. Com estampa divertida",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069657525-elsmm",
+      "name": "Body Tematico Junino",
+      "category": "acessorios",
+      "price": 22,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-879.webp",
+      "description": "🌽🎉 Body Junino Baby 🎉🌽 Deixe o primeiro São João do seu bebê ainda mais especial com o Body Junino Baby ! Inspirado nas tradicionais festas juninas, este modelo traz uma estampa divertida com elementos típicos do arraiá, como xadrez, gravatinha, ",
       "inStock": true
     },
     {
@@ -1266,6 +1806,24 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24322500/Touca.jpg",
       "description": "Indicação de uso: 4-10 anos Touca Infantil Acr lica Pompom Maria Chica feita em fio duplo macio e quentinho para proteger seu pequeno durante o frio. - 04 a 10 anos Composi o: 100% acr lico Instru es para lavagem: Lavar ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-4fccd",
+      "name": "Condicionador Salon Line Meu Liso Kids 300ml",
+      "category": "acessorios",
+      "price": 24.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13399.webp",
+      "description": "Condicionador Desembaraçante Meu Liso Kids Salon Line 300ml O Condicionador Desembaraçante Meu Liso Kids Salon Line foi desenvolvido especialmente para cuidar dos cabelos das crianças com suavidade, deixando os fios macios, hidratados, brilhantes e m",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-8lz85",
+      "name": "Copo Treinamento Com Canudo Plasutil Baby Menino 16807",
+      "category": "acessorios",
+      "price": 25,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13256.webp",
+      "description": "Copo com Canudo e Alças Plasútil Baby O Copo com Canudo Plasútil Baby foi desenvolvido para ajudar na transição da mamadeira para o copo de forma prática e confortável. Possui alças laterais anatômicas , tampa protetora e canudo em silicone, proporci",
       "inStock": true
     },
     {
@@ -1503,6 +2061,42 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069656692-z70ds",
+      "name": "Meia Bichinho Masc Pimpolho",
+      "category": "acessorios",
+      "price": 29.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1320.webp",
+      "description": "Meia Baby Masculino Pimpolho Bichinho A Meia Baby Pimpolho Bichinho foi desenvolvida para manter os pezinhos do bebê aquecidos com muito conforto. Produzida com tecido macio e toque suave, possui punho confortável e aplicação em bichinho de pelúcia q",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-3ul2j",
+      "name": "Meia Bichinho Fem Pimpolho",
+      "category": "acessorios",
+      "price": 29.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1319.webp",
+      "description": "Meia Baby Bichinho Pimpolho &#8211; Menina RN A Meia Baby Bichinho Pimpolho foi desenvolvida para manter os pezinhos da recém-nascida aquecidos com muito conforto e delicadeza. Confeccionada com 65% algodão , oferece toque macio, excelente ajuste e a",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-nwenk",
+      "name": "Copo Treinamento Com Canudo Plasutil Baby Minnie 17436",
+      "category": "acessorios",
+      "price": 30,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13258-01.webp",
+      "description": "Copo com Canudo Minnie Mouse Plasútil Baby O Copo com Canudo Minnie Mouse Plasútil Baby combina praticidade e um design encantador para acompanhar a rotina das pequenas. Com estampa oficial da Minnie, alças anatômicas e canudo em silicone, é perfeito",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-o48bg",
+      "name": "Copo Treinamento Com Canudo Plasutil Baby Mickey 17434",
+      "category": "acessorios",
+      "price": 30,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13257.webp",
+      "description": "Copo com Canudo Mickey Mouse Plasútil Baby O Copo com Canudo Mickey Mouse Plasútil Baby torna o momento da hidratação ainda mais divertido. Com estampa oficial do Mickey, alças anatômicas e canudo em silicone, foi desenvolvido para auxiliar o bebê na",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069179274-e7nr",
       "name": "Touca Infantil com Pompom - 8104",
       "price": 30.5,
@@ -1518,6 +2112,24 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24200150/Escova.jpg",
       "description": "Higienize a mamadeira do seu filho com a Escova de Mamadeira 2 em 1 da Nuk . - Cerdas resistentese flexíveis para limpeza completa de bicos e frascos - Escova menor indicada para limpeza de bicos Medidas: - Escova Maior:",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-7q1vz",
+      "name": "Meia Bichinho Pimpolho Unissex",
+      "category": "acessorios",
+      "price": 32,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1321.webp",
+      "description": "Meia Baby Pimpolho A Meia Baby Pimpolho foi desenvolvida para manter os pezinhos do bebê sempre aquecidos e confortáveis. Confeccionada com tecido macio e delicado, possui punho confortável que ajuda na fixação sem apertar, além de detalhes em apliqu",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-f8l6s",
+      "name": "Kit Escova e Pente Pimpolho",
+      "category": "acessorios",
+      "price": 32,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1317.webp",
+      "description": "Kit Escova e Pente Baby Pimpolho O Kit Escova e Pente Baby Pimpolho foi desenvolvido para cuidar delicadamente dos cabelos do bebê desde os primeiros dias de vida. A escova possui cerdas macias que penteiam sem agredir o couro cabeludo, enquanto o pe",
       "inStock": true
     },
     {
@@ -1563,6 +2175,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23822580/Mordedor.jpg",
       "description": "Mordedor com Água Minnie da Toyster fácil de segurar, gostoso de morder e divertido de brincar. - Alivia a gengiva - Coloque no refrigerador para ficar geladinho - Desenho impresso pelo lado interno, bebê não tem contato",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-pk6xm",
+      "name": "Kit Touca Luva e Sapatinho Mmbaby",
+      "category": "acessorios",
+      "price": 34,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1313.webp",
+      "description": "Kit Baby Pimpolho 3 Peças O Kit Baby Pimpolho 3 Peças reúne itens essenciais para manter o bebê protegido e confortável nos primeiros meses de vida. Composto por touca, luvinhas e sapatinhos , é confeccionado em tecido macio e delicado, proporcionand",
       "inStock": true
     },
     {
@@ -1635,6 +2256,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23004409/Chupeta.jpg",
       "description": "Chupeta Original Neutra da MAM (16m+) da Avent. Livre de BPA/BPS. Composi o: - Bico: silicone - Disco e bot o: Polipropileno; Idade recomendada: - partir de 16 meses Conte do da embalagem: - 01 Chupeta Original da MAM O ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-xu2a5",
+      "name": "Kit Meia 2 Pares Masc Pimpolho",
+      "category": "acessorios",
+      "price": 35,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1323.webp",
+      "description": "Kit Meias Pimpolho com 2 Pares O Kit Meias Pimpolho com 2 Pares foi desenvolvido para manter os pezinhos do bebê sempre aquecidos e confortáveis. Confeccionadas com tecido macio e delicado, as meias oferecem excelente ajuste sem apertar, proporcionan",
       "inStock": true
     },
     {
@@ -1788,6 +2418,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/22997761/Mordedor.jpg",
       "description": "O Mordedor Chocalho Pescoçudos da Toyster são três amiguinhos gostosos de morder e fáceis de segurar. Com texturas e perfume suave para acompanhar o bebê durante o seu desenvolvimento. - Fácil de segurar - Gostoso de mor",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069656692-qjcy8",
+      "name": "Manta Para Bebê Flanelada Listas Pimpolho 1.10x80cm Masc 9864-1",
+      "category": "acessorios",
+      "price": 39.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13227-embal.webp",
+      "description": "Manta de Flanela Bebê Pimpolho A Manta Pimpolho une o máximo conforto térmico com um toque aveludado irresistível. Desenvolvida em flanela de alta qualidade (Gramatura 220), ela é leve, macia e perfeita para manter seu bebê aquecido com todo o carinh",
       "inStock": true
     },
     {
@@ -2016,6 +2655,33 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069656692-1mhgd",
+      "name": "Kit Meia Festa 2 Pares Pompom",
+      "category": "acessorios",
+      "price": 49.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/Grade-1322.jpg",
+      "description": "Kit 2 Pares de Meias Festa Baby Pimpolho O Kit 2 Pares de Meias Festa Baby Pimpolho foi desenvolvido para deixar os pezinhos da bebê confortáveis e ainda mais charmosos em ocasiões especiais. Confeccionadas em tecido macio, as meias possuem delicados",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-adhvx",
+      "name": "Meia C/ Sola Cano Alto Pimpolho Fem",
+      "category": "acessorios",
+      "price": 50,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/Grade-1331-1.webp",
+      "description": "Meia com Sola Cano Alto Pimpolho – Antiderrapante A Meia com Sola Cano Alto Pimpolho foi desenvolvida para proporcionar mais conforto, segurança e liberdade nos primeiros passos da criança. Produzida com predominância de poliamida , é leve, macia, re",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-f5kdw",
+      "name": "Meia C/ Sola Cano Alto Urso Polar Masc",
+      "category": "acessorios",
+      "price": 50,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/Grade-1329.webp",
+      "description": "Meia com Sola Cano Alto Pimpolho – Antiderrapante A Meia com Sola Cano Alto Pimpolho foi desenvolvida para proporcionar mais conforto, segurança e liberdade nos primeiros passos da criança. Produzida com predominância de poliamida , é leve, macia, re",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068963145-c0quz",
       "name": "Camiseta Básica UV - 6238",
       "price": 52.9,
@@ -2211,6 +2877,24 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23009319/Mamadeira.jpg",
       "description": "Mamadeira Easy Start 130ml da MAM: Idade recomendada: - à partir do nascimento - Livre de BPA. Conteúdo da embalagem: - 01 Mamadeira Easy Start 130ml da MAM: O MINISTÉRIO DA SAÚDE ADVERTE: A CRIANÇA QUE MAMA NO PEITO N&A",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-45hfn",
+      "name": "Kit Higiene Plasútil Baby Patrulha Canina Menino 5 Peças 17918",
+      "category": "acessorios",
+      "price": 60,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13260.webp",
+      "description": "Kit Higiene Patrulha Canina Azul O Kit Higiene Patrulha Canina Azul foi desenvolvido para manter os itens de higiene do bebê sempre organizados e ao alcance das mãos. Com estampa oficial da Patrulha Canina, combina praticidade, organização e um visua",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-rj0yp",
+      "name": "Kit Higiene Plasútil Baby Patrulha Canina Menina 5 Peças 17942",
+      "category": "acessorios",
+      "price": 60,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13259.webp",
+      "description": "Kit Higiene Patrulha Canina Rosa O Kit Higiene Patrulha Canina Rosa reúne os principais itens para manter a higiene e os cuidados do bebê sempre organizados. Com estampa oficial da Patrulha Canina, é ideal para o quarto do bebê, banheiro ou para leva",
       "inStock": true
     },
     {
@@ -2997,6 +3681,24 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069655576-bdied",
+      "name": "Cadeira Infantil Com Bandeija Plasútil Ursa 18427",
+      "category": "acessorios",
+      "price": 98,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13264.webp",
+      "description": "",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655577-e0eo1",
+      "name": "Cadeira Infantil Com Bandeija Plasútil Urso 18426",
+      "category": "acessorios",
+      "price": 98,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13263.webp",
+      "description": "",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068865895-maz0b",
       "name": "Conjunto Soft com Capuz Urso Polar",
       "price": 98.45,
@@ -3708,6 +4410,24 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069658495-vfwpt",
+      "name": "Roupa Intima Tena Confort Super Giga P/m 42un",
+      "category": "acessorios",
+      "price": 149.99,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13144.webp",
+      "description": "P/M 42 G/XG 42",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069658495-qpy59",
+      "name": "Roupa Intima Tena Confort Super Giga G/xg 42un",
+      "category": "acessorios",
+      "price": 150,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/05/13143.webp",
+      "description": "P/M 42 G/XG 42",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068961924-l7aub",
       "name": "Conjunto Ursinha",
       "price": 153.9,
@@ -3831,6 +4551,24 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24300719/Conjunto.jpg",
       "description": "Indicação de uso: 4-12 anos - Conjunto confortável em moletom - Agasalho com estampa - Calça em moletom com elástico na cintura Composição: - Conjunto :",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654768-ymckb",
+      "name": "Saída Maternidade Manta Vestido e Calça Jacquard Rn Amarelo",
+      "category": "acessorios",
+      "price": 180,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13288.webp",
+      "description": "Kit Maternidade Pimpolho – Vestido, Calça e Manta em Tricô O Kit Maternidade Pimpolho é uma escolha encantadora para receber a recém-nascida com muito conforto, elegância e delicadeza. Composto por vestido, calça e manta , o conjunto é confeccionado ",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069655576-j09e3",
+      "name": "Saída Maternidade Manta+macacão e Gorro Jacquard Rn Branco",
+      "category": "acessorios",
+      "price": 180,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13287.webp",
+      "description": "Kit Saída Maternidade Pimpolho Branco – Macacão, Gorro e Manta O Kit Saída Maternidade Pimpolho é a escolha perfeita para receber o bebê com muito conforto, elegância e delicadeza. Composto por macacão, gorro e manta , o conjunto possui acabamento em",
       "inStock": true
     },
     {
@@ -4068,6 +4806,15 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069656693-eu5br",
+      "name": "Andador Tutti Baby Comfort Azul 40.005.003",
+      "category": "acessorios",
+      "price": 289,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/06/13212.webp",
+      "description": "O Andador Comfort foi feito para os primeiros passos do seu bebê, com todo o conforto e segurança!! Leve e resistente, ele é produzido com resina termoinjetada de engenharia ultra resistente, garantindo durabilidade e praticidade! Com três níveis de ",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068866061-kakj6",
       "name": "Cadeirinha de Alimentação Pocket Snack",
       "price": 299,
@@ -4239,6 +4986,15 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069654767-41ckb",
+      "name": "Carrinho Galzerano Romano G22 Preto Rosa 1038ptr",
+      "category": "acessorios",
+      "price": 880,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13333.webp",
+      "description": "Carrinho de Bebê Galzerano Romano G22 Preto/Rosa Ref. 1038PTR O Carrinho de Bebê Galzerano Romano G22 foi desenvolvido para proporcionar conforto, segurança e praticidade desde o nascimento até crianças de 22 kg . Com design moderno na combinação Pre",
+      "inStock": true
+    },
+    {
       "id": "scraped-1786068865760-igosp",
       "name": "Cadeirinha para Carro Verto 360 Twibex",
       "price": 899,
@@ -4257,12 +5013,30 @@
       "inStock": true
     },
     {
+      "id": "omf-1786069654767-ludyb",
+      "name": "Cadeira Para Carro Drc Galzerano Tori Preto 8000pt",
+      "category": "acessorios",
+      "price": 899,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13335.webp",
+      "description": "Cadeira para Carro DRC Galzerano Tori Preto 8000PT A Cadeira para Carro Galzerano Tori 8000PT foi desenvolvida para acompanhar o crescimento da criança desde o nascimento até os 36 kg , oferecendo conforto, segurança e praticidade em todas as fases. ",
+      "inStock": true
+    },
+    {
       "id": "spec-1786069174691-95wq",
       "name": "Babá Eletrônica Miss Nanny Fisher Price",
       "price": 1099,
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/23907009/Baba.jpg",
       "description": "A Miss Nanny Fisher Price é a babá eletrônica ideal para quem faz questão de uma conexão privada e 100% segura! Com tecnologia FHSS, a conexão, transmissão das imagens e sons são restritas ao circuito interno e fechado e",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-sbnu1",
+      "name": "Cadeira Para Carro Drc Galzerano Prati Preto 8006pt",
+      "category": "acessorios",
+      "price": 1100,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13336.webp",
+      "description": "Cadeira para Carro DRC Galzerano Prati Preto 8006PT A Cadeira para Carro DRC Galzerano Prati 8006PT foi projetada para acompanhar todas as fases do crescimento da criança, desde o nascimento até os 36 kg . Indicada para os Grupos 0+, I, II e III , el",
       "inStock": true
     },
     {
@@ -4299,6 +5073,15 @@
       "category": "acessorios",
       "image": "https://alobebe.vteximg.com.br/arquivos/ids/24350707/Cadeira.jpg",
       "description": "A Cadeira para Auto Litet Smart 360 ISOFIX da Multilaser é ideal para crianças de todos os grupos, desde o nascimento até 36 kg. Característica do produto: - Possui sistema de fixação ISOFIX e rotação",
+      "inStock": true
+    },
+    {
+      "id": "omf-1786069654767-hj71b",
+      "name": "Cadeira Para Carro Galzerano I-fix 360º Preto 8021pt",
+      "category": "acessorios",
+      "price": 1600,
+      "image": "https://omundodasfraldas.com.br/wp-content/uploads/2026/07/13337.webp",
+      "description": "Cadeira para Carro Galzerano I-Fix 360º Preto 8021PT A Cadeira para Carro Galzerano I-Fix 360º 8021PT reúne as mais modernas tecnologias de segurança para acompanhar o crescimento da criança desde o nascimento até aproximadamente 12 anos de idade , s",
       "inStock": true
     },
     {
