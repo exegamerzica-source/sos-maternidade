@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   SOS Maternidade — app.js (Store Logic)
+   BabyFlash — app.js (Store Logic)
    ═══════════════════════════════════════════════ */
 
 'use strict';
@@ -8,7 +8,7 @@
 //  State
 // ──────────────────────────────────────────────
 let allProducts = [];
-let storeConfig = { whatsapp: '5547999835305', deliveryFee: 0, storeName: 'SOS Maternidade' };
+let storeConfig = { whatsapp: '5547999835305', deliveryFee: 0, storeName: 'BabyFlash' };
 let cart = {};          // { productId: qty }
 let currentCategory = 'all';
 let selectedPayment = 'Pix';
@@ -132,7 +132,7 @@ function buildProductCard(p) {
             <button onclick="changeQty('${p.id}', 1)" aria-label="Aumentar quantidade">+</button>
           </div>`
         : `<button onclick="addToCart('${p.id}')"
-            class="w-full bg-gradient-to-r from-rose-600 to-rose-500 text-white font-bold text-sm py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all">
+            class="w-full bg-gradient-to-r from-sky-500 to-teal-400 text-white font-bold text-sm py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all">
             + Adicionar
           </button>`)
     : `<button disabled
@@ -158,7 +158,7 @@ function buildProductCard(p) {
       <div class="p-3 flex flex-col flex-1">
         <p class="font-bold text-gray-900 text-sm leading-snug line-clamp-2 mb-1">${escapeHtml(p.name)}</p>
         ${p.description ? `<p class="text-gray-400 text-xs line-clamp-2 mb-2 flex-1">${escapeHtml(p.description)}</p>` : '<div class="flex-1"></div>'}
-        <p class="text-rose-600 font-black text-lg mb-2">${priceStr}</p>
+        <p class="text-sky-600 font-black text-lg mb-2">${priceStr}</p>
         ${addBtn}
       </div>
     </div>`;
@@ -337,13 +337,13 @@ function renderDrawerItems() {
         <img
           src="${escapeHtml(p.image) || `https://picsum.photos/seed/${p.id}/80/80`}"
           alt="${escapeHtml(p.name)}"
-          class="w-14 h-14 rounded-xl object-cover bg-rose-50 flex-shrink-0"
+          class="w-14 h-14 rounded-xl object-cover bg-sky-50 flex-shrink-0"
           onerror="this.src='https://picsum.photos/seed/${p.id}-fb/80/80'"
         />
         <div class="flex-1 min-w-0">
           <p class="text-sm font-bold text-gray-900 line-clamp-2 leading-snug">${escapeHtml(p.name)}</p>
           <p class="text-xs text-gray-400 mt-0.5">${formatCurrency(p.price)} cada</p>
-          <p class="text-sm font-black text-rose-600">${itemTotal}</p>
+          <p class="text-sm font-black text-sky-600">${itemTotal}</p>
         </div>
         <div class="flex flex-col items-center gap-1.5">
           <div class="qty-stepper">

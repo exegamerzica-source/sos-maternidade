@@ -8,7 +8,7 @@ const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'db.json');
+const DB_PATH = process.env.DB_PATH || path.join(__dirname, '..', 'db.json');
 const SESSION_SECRET = process.env.SESSION_SECRET || 'sos-mat-secret-2024-xK9pQ';
 
 // ══════════════════════════════════════════════
@@ -28,7 +28,7 @@ function writeDB(data) {
 
 function initDefaultDB() {
   const defaults = {
-    config: { whatsapp: '5547999835305', deliveryFee: 0, storeName: 'SOS Maternidade' },
+    config: { whatsapp: '5547999835305', deliveryFee: 0, storeName: 'BabyFlash' },
     admin: { password: 'admin123' },
     products: []
   };
@@ -41,7 +41,7 @@ function initDefaultDB() {
 // ══════════════════════════════════════════════
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.use(session({
   secret: SESSION_SECRET,
@@ -214,7 +214,7 @@ app.put('/api/admin/config', requireAdmin, (req, res) => {
 //  Admin SPA route
 // ══════════════════════════════════════════════
 app.get('/admin', (_req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'admin.html'));
+  res.sendFile(path.join(__dirname, '..', 'public', 'admin.html'));
 });
 
 // ══════════════════════════════════════════════
@@ -226,14 +226,17 @@ app.use((_req, res) => {
 
 // ══════════════════════════════════════════════
 //  Start server
-// ══════════════════════════════════════════════
-app.listen(PORT, () => {
-  const line = '═'.repeat(42);
-  console.log(`\n${line}`);
-  console.log('  🍼  SOS Maternidade — Servidor Iniciado');
-  console.log(line);
-  console.log(`  🌐  Loja:   http://localhost:${PORT}`);
-  console.log(`  🔐  Admin:  http://localhost:${PORT}/admin`);
-  console.log(`  🔑  Senha:  ${process.env.ADMIN_PASSWORD ? '(env var)' : 'admin123'}`);
-  console.log(`${line}\n`);
-});
+if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+  app.listen(PORT, () => {
+    const line = '═'.repeat(42);
+    console.log(`\n${line}`);
+    console.log('  🍼  BabyFlash — Servidor Iniciado');
+    console.log(line);
+    console.log(`  🌐  Loja:   http://localhost:${PORT}`);
+    console.log(`  🔐  Admin:  http://localhost:${PORT}/admin`);
+    console.log(`  🔑  Senha:  ${process.env.ADMIN_PASSWORD ? '(env var)' : 'admin123'}`);
+    console.log(`${line}\n`);
+  });
+}
+
+module.exports = app;

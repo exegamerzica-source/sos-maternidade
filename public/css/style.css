@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════
-   SOS Maternidade — Custom CSS
+   BabyFlash — Custom CSS
    (Tailwind CDN handles utilities; this file handles
     animations, transitions & specialised overrides)
    ═══════════════════════════════════════════════ */
@@ -99,14 +99,14 @@ body {
 }
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 28px rgba(225, 29, 72, 0.15);
+  box-shadow: 0 8px 28px rgba(14, 165, 233, 0.15);
 }
 
 .product-card img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  background: #fff1f2;
+  background: #f0f9ff;
 }
 
 /* ---------- Qty Stepper ---------- */
@@ -130,10 +130,10 @@ body {
   border: none;
   cursor: pointer;
   transition: background 0.15s;
-  color: #e11d48;
+  color: #0ea5e9;
 }
 .qty-stepper button:hover {
-  background: #ffe4e6;
+  background: #e0f2fe;
 }
 .qty-stepper span {
   min-width: 32px;
@@ -181,12 +181,12 @@ body {
   left: 0;
   right: 0;
   z-index: 50;
-  background: linear-gradient(135deg, #be123c, #e11d48);
+  background: linear-gradient(135deg, #0284c7, #0ea5e9);
   padding: 14px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 -4px 20px rgba(225, 29, 72, 0.35);
+  box-shadow: 0 -4px 20px rgba(14, 165, 233, 0.35);
   transform: translateY(120%);
   transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
 }
@@ -209,14 +209,14 @@ body {
   border-color: #e5e7eb;
 }
 .cat-pill:hover {
-  border-color: #e11d48;
-  color: #e11d48;
+  border-color: #0ea5e9;
+  color: #0ea5e9;
 }
 .cat-pill.active {
-  background: linear-gradient(135deg, #e11d48, #fb7185);
+  background: linear-gradient(135deg, #0ea5e9, #38bdf8);
   color: #fff;
   border-color: transparent;
-  box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
 }
 
 /* ---------- Payment Selector ---------- */
@@ -233,12 +233,12 @@ body {
   font-size: 0.875rem;
   color: #6b7280;
 }
-.pay-option:hover  { border-color: #e11d48; color: #e11d48; }
+.pay-option:hover  { border-color: #0ea5e9; color: #0ea5e9; }
 .pay-option.active {
-  border-color: #e11d48;
-  background: #fff1f2;
-  color: #e11d48;
-  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.15);
+  border-color: #0ea5e9;
+  background: #f0f9ff;
+  color: #0ea5e9;
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.15);
 }
 
 /* ---------- Form Inputs ---------- */
@@ -254,7 +254,7 @@ body {
   font-family: inherit;
 }
 .form-input:focus {
-  border-color: #e11d48;
+  border-color: #0ea5e9;
   background: #fff;
 }
 .form-input.error {
@@ -328,5 +328,5 @@ body {
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 50%, #fecdd3 100%);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
 }

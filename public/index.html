@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SOS Maternidade — Entrega Expressa em até 45 min</title>
-  <meta name="description" content="Fraldas, fórmulas, higiene e acessórios para bebê com entrega relâmpago em até 45 minutos. Plantão 24h — SOS Maternidade." />
-  <meta name="theme-color" content="#e11d48" />
+  <title>BabyFlash — Delivery Expresso</title>
+  <meta name="description" content="Fraldas, fórmulas, higiene e acessórios para bebê com entrega relâmpago em até 45 minutos. Plantão 24h — BabyFlash." />
+  <meta name="theme-color" content="#38bdf8" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -17,18 +17,18 @@
   </script>
   <link rel="stylesheet" href="/css/style.css" />
 </head>
-<body class="bg-rose-50 font-inter min-h-screen">
+<body class="bg-sky-50 font-inter min-h-screen">
 
 <!-- ══════════════════════════════════════════
      URGENCY BANNER (fixed top)
 ════════════════════════════════════════════ -->
-<div id="urgency-banner" class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-700 via-red-600 to-rose-600 text-white py-2 px-3">
+<div id="urgency-banner" class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-sky-500 via-sky-400 to-teal-400 text-white py-2 px-3">
   <div class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold overflow-hidden">
     <span class="urgency-dot flex-shrink-0"></span>
-    <span class="flex-shrink-0">🚨 PLANTÃO SOS MATERNIDADE</span>
+    <span class="flex-shrink-0">⚡ DELIVERY BABYFLASH</span>
     <span class="opacity-60 flex-shrink-0">|</span>
     <span class="flex-shrink-0">Entrega Expressa em até</span>
-    <span class="bg-white text-red-600 rounded-full px-2 py-0.5 text-xs font-black flex-shrink-0">45 MIN</span>
+    <span class="bg-white text-sky-600 rounded-full px-2 py-0.5 text-xs font-black flex-shrink-0">45 MIN</span>
     <span class="flex-shrink-0">🍼</span>
   </div>
 </div>
@@ -40,25 +40,23 @@
   <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
     <!-- Logo -->
     <div class="flex items-center gap-2">
-      <div class="w-9 h-9 rounded-full bg-gradient-to-br from-rose-500 to-red-600 flex items-center justify-center shadow-md">
-        <span class="text-lg">🍼</span>
-      </div>
+      <img src="/assets/logo.png" alt="BabyFlash Logo" class="w-10 h-10 object-contain" />
       <div>
-        <p class="text-rose-600 font-black text-base leading-tight">SOS Maternidade</p>
+        <p class="text-sky-600 font-black text-base leading-tight">BabyFlash</p>
         <p class="text-gray-400 text-[10px] font-medium">Delivery para bebês que não podem esperar</p>
       </div>
     </div>
     <!-- Clock + Mini Cart -->
     <div class="flex items-center gap-3">
-      <div class="hidden sm:flex items-center gap-1.5 bg-rose-50 border border-rose-100 rounded-full px-3 py-1.5">
-        <span class="text-rose-500 text-xs">🕐</span>
-        <span id="clock" class="text-rose-700 font-bold text-xs"></span>
+      <div class="hidden sm:flex items-center gap-1.5 bg-sky-50 border border-sky-100 rounded-full px-3 py-1.5">
+        <span class="text-sky-500 text-xs">🕐</span>
+        <span id="clock" class="text-sky-700 font-bold text-xs"></span>
       </div>
-      <button id="header-cart-btn" onclick="openDrawer()" class="relative w-10 h-10 bg-rose-50 rounded-full flex items-center justify-center border border-rose-100 transition hover:bg-rose-100">
-        <svg class="w-5 h-5 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <button id="header-cart-btn" onclick="openDrawer()" class="relative w-10 h-10 bg-sky-50 rounded-full flex items-center justify-center border border-sky-100 transition hover:bg-sky-100">
+        <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
         </svg>
-        <span id="header-cart-count" class="absolute -top-1 -right-1 w-4 h-4 bg-rose-600 text-white text-[10px] font-black rounded-full items-center justify-center hidden">0</span>
+        <span id="header-cart-count" class="absolute -top-1 -right-1 w-4 h-4 bg-sky-500 text-white text-[10px] font-black rounded-full items-center justify-center hidden">0</span>
       </button>
     </div>
   </div>
@@ -72,13 +70,13 @@
   <!-- Hero -->
   <section class="hero-gradient rounded-3xl p-6 mb-6 mt-3 relative overflow-hidden">
     <div class="relative z-10">
-      <div class="inline-flex items-center gap-1.5 bg-rose-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
+      <div class="inline-flex items-center gap-1.5 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
         <span class="urgency-dot" style="width:6px;height:6px;"></span>
         Plantão 24 horas
       </div>
       <h1 class="text-2xl sm:text-3xl font-black text-gray-900 leading-tight mb-2">
         Tudo para o seu bebê,<br/>
-        <span class="text-rose-600">na sua porta em minutos.</span>
+        <span class="text-sky-600">na sua porta em minutos.</span>
       </h1>
       <p class="text-gray-500 text-sm font-medium">Fraldas · Fórmulas · Higiene · Acessórios</p>
     </div>
@@ -90,10 +88,10 @@
   <!-- Search Bar -->
   <div class="mb-5 mt-1 relative max-w-md mx-auto">
     <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-      <span class="text-rose-400 text-lg">🔍</span>
+      <span class="text-sky-400 text-lg">🔍</span>
     </div>
     <input type="search" id="search-bar" 
-      class="w-full bg-white border border-rose-100 rounded-full py-3.5 pl-12 pr-4 text-sm font-medium text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-rose-500 shadow-sm transition-all"
+      class="w-full bg-white border border-sky-100 rounded-full py-3.5 pl-12 pr-4 text-sm font-medium text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm transition-all"
       placeholder="O que o bebê precisa agora? (Ex: Pampers, Pomada...)" 
       autocomplete="off" />
   </div>
@@ -213,7 +211,7 @@
     <div class="flex items-center gap-2">
       <span class="text-xl">🛒</span>
       <h2 class="text-lg font-black text-gray-900">Meu Pedido</h2>
-      <span id="drawer-item-count" class="bg-rose-100 text-rose-600 text-xs font-bold px-2 py-0.5 rounded-full">0 itens</span>
+      <span id="drawer-item-count" class="bg-sky-100 text-sky-600 text-xs font-bold px-2 py-0.5 rounded-full">0 itens</span>
     </div>
     <button onclick="closeDrawer()" class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition" aria-label="Fechar carrinho">
       <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -230,7 +228,7 @@
       <div class="text-6xl mb-4">🛒</div>
       <p class="text-gray-700 font-bold text-lg">Carrinho vazio</p>
       <p class="text-gray-400 text-sm mt-1">Adicione produtos e finalize seu pedido!</p>
-      <button onclick="closeDrawer()" class="mt-6 bg-rose-600 text-white px-6 py-3 rounded-full font-bold hover:bg-rose-700 transition">
+      <button onclick="closeDrawer()" class="mt-6 bg-sky-500 text-white px-6 py-3 rounded-full font-bold hover:bg-sky-600 transition">
         Ver Produtos
       </button>
     </div>
@@ -276,7 +274,7 @@
         <div>
           <label class="block text-xs font-bold text-gray-600 mb-1" for="f-reference">
             Ponto de referência *
-            <span class="text-rose-500 font-normal ml-1">(obrigatório)</span>
+            <span class="text-sky-500 font-normal ml-1">(obrigatório)</span>
           </label>
           <input id="f-reference" type="text" class="form-input" placeholder="Ex: Em frente ao mercado X, portão azul..." />
         </div>
@@ -311,7 +309,7 @@
         </div>
         <div class="border-t border-gray-200 pt-2 flex justify-between">
           <span class="font-black text-gray-900 text-base">TOTAL</span>
-          <span id="summary-total" class="font-black text-rose-600 text-xl">R$ 0,00</span>
+          <span id="summary-total" class="font-black text-sky-600 text-xl">R$ 0,00</span>
         </div>
       </div>
 
