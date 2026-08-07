@@ -38,13 +38,8 @@
 ════════════════════════════════════════════ -->
 <header class="fixed left-0 right-0 z-40 bg-white shadow-sm" style="top: 33px;">
   <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-    <!-- Logo -->
-    <div class="flex items-center gap-2">
-      <img src="/assets/logo.png" alt="BabyFlash Logo" class="w-10 h-10 object-contain" />
-      <div>
-        <p class="text-sky-600 font-black text-base leading-tight">BabyFlash</p>
-        <p class="text-gray-400 text-[10px] font-medium">Delivery para bebês que não podem esperar</p>
-      </div>
+    <div class="flex flex-col justify-center">
+      <img src="/assets/logo.png" alt="BabyFlash Logo" class="h-14 sm:h-16 w-auto object-contain -ml-2" />
     </div>
     <!-- Clock + Mini Cart -->
     <div class="flex items-center gap-3">
@@ -326,6 +321,30 @@
         </p>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     PRODUCT MODAL
+════════════════════════════════════════════ -->
+<div id="product-modal-overlay" class="drawer-overlay" onclick="closeProductModal()"></div>
+<div id="product-modal" class="drawer-panel" style="z-index: 65;" role="dialog" aria-modal="true" aria-label="Detalhes do Produto">
+  <!-- Handle -->
+  <div class="flex justify-center pt-3 pb-1 md:hidden flex-shrink-0">
+    <div class="w-10 h-1 bg-gray-300 rounded-full"></div>
+  </div>
+
+  <div class="flex items-center justify-between px-5 py-3 border-b border-gray-100 flex-shrink-0">
+    <h2 class="text-lg font-black text-gray-900">Detalhes do Produto</h2>
+    <button onclick="closeProductModal()" class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition">
+      <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="drawer-scroll flex-1 overflow-y-auto px-5 py-4" id="product-modal-content">
+    <!-- Populated by JS -->
   </div>
 </div>
 

@@ -127,21 +127,21 @@ function buildProductCard(p) {
   const addBtn = p.inStock
     ? (inCart
         ? `<div class="qty-stepper w-full justify-center">
-            <button onclick="changeQty('${p.id}', -1)" aria-label="Diminuir quantidade">−</button>
+            <button onclick="changeQty('${p.id}', -1); event.stopPropagation()" aria-label="Diminuir quantidade">−</button>
             <span>${qty}</span>
-            <button onclick="changeQty('${p.id}', 1)" aria-label="Aumentar quantidade">+</button>
+            <button onclick="changeQty('${p.id}', 1); event.stopPropagation()" aria-label="Aumentar quantidade">+</button>
           </div>`
-        : `<button onclick="addToCart('${p.id}')"
-            class="w-full bg-gradient-to-r from-sky-500 to-teal-400 text-white font-bold text-sm py-2.5 rounded-xl hover:opacity-90 active:scale-95 transition-all">
+        : `<button onclick="addToCart('${p.id}'); event.stopPropagation()"
+            class="w-full bg-emerald-500 text-white font-bold text-sm py-2.5 rounded-xl hover:bg-emerald-600 active:scale-95 transition-all">
             + Adicionar
           </button>`)
-    : `<button disabled
+    : `<button disabled onclick="event.stopPropagation()"
           class="w-full bg-gray-200 text-gray-400 font-bold text-sm py-2.5 rounded-xl cursor-not-allowed">
           Esgotado
         </button>`;
 
   return `
-    <div class="product-card" id="card-${p.id}">
+    <div class="product-card cursor-pointer" id="card-${p.id}" onclick="openProductModal('${p.id}')">
       <div class="relative">
         <img
           src="${escapeHtml(p.image) || `https://picsum.photos/seed/${p.id}/400/400`}"
@@ -159,7 +159,7 @@ function buildProductCard(p) {
         <p class="font-bold text-gray-900 text-sm leading-snug line-clamp-2 mb-1">${escapeHtml(p.name)}</p>
         ${p.description ? `<p class="text-gray-400 text-xs line-clamp-2 mb-2 flex-1">${escapeHtml(p.description)}</p>` : '<div class="flex-1"></div>'}
         <p class="text-sky-600 font-black text-lg mb-2">${priceStr}</p>
-        ${addBtn}
+        <div class="mt-auto" onclick="event.stopPropagation()">${addBtn}</div>
       </div>
     </div>`;
 }
@@ -500,3 +500,72 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 }
+
+// ──────────────────────────────────────────────
+//  Product Modal
+// ──────────────────────────────────────────────
+function openProductModal(productId) {
+  const p = allProducts.find(pr => pr.id === productId);
+  if (!p) return;
+  
+  const content = document.getElementById('product-modal-content');
+  const catLabel = CATEGORY_LABELS[p.category] || p.category;
+  
+  content.innerHTML = `
+    <div class="flex justify-center mb-4">
+      <img src="${escapeHtml(p.image) || `https://picsum.photos/seed/${p.id}/400/400`}" class="w-48 h-48 object-cover rounded-2xl shadow-sm border border-gray-100" />
+    </div>
+    <div class="text-center mb-6">
+      <span class="bg-gray-100 text-gray-600 text-[10px] font-bold px-3 py-1 rounded-full mb-2 inline-block">${catLabel}</span>
+      <h3 class="font-black text-gray-900 text-xl leading-snug mb-2">${escapeHtml(p.name)}</h3>
+      ${p.description ? `<p class="text-gray-500 text-sm">${escapeHtml(p.description)}</p>` : ''}
+    </div>
+    <div class="flex items-center justify-between bg-sky-50 rounded-2xl p-4 mb-4 border border-sky-100">
+      <div>
+        <p class="text-sky-600 text-xs font-bold uppercase tracking-wider">Preço</p>
+        <p class="text-sky-700 font-black text-3xl">${formatCurrency(p.price)}</p>
+      </div>
+      <div class="text-right">
+        ${p.inStock ? '<span class="text-emerald-500 font-bold text-sm">✅ Em Estoque</span>' : '<span class="text-red-500 font-bold text-sm">❌ Esgotado</span>'}
+      </div>
+    </div>
+    ${p.inStock ? `
+      <div class="flex flex-col gap-3">
+        <button onclick="buyNow('${p.id}')" class="w-full bg-emerald-500 text-white font-black text-base py-4 rounded-xl flex items-center justify-center gap-2 hover:bg-emerald-600 transition shadow-lg shadow-emerald-500/30">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          COMPRAR AGORA (1-CLIQUE)
+        </button>
+        <button onclick="addToCart('${p.id}'); closeProductModal()" class="w-full bg-white border-2 border-sky-500 text-sky-600 font-bold text-base py-3.5 rounded-xl hover:bg-sky-50 transition">
+          🛒 Adicionar ao Carrinho
+        </button>
+      </div>
+    ` : `
+      <button disabled class="w-full bg-gray-200 text-gray-400 font-bold py-4 rounded-xl cursor-not-allowed">
+        Indisponível no momento
+      </button>
+    `}
+  `;
+  
+  document.getElementById('product-modal-overlay').classList.add('active');
+  document.getElementById('product-modal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeProductModal() {
+  document.getElementById('product-modal-overlay').classList.remove('active');
+  document.getElementById('product-modal').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function buyNow(productId) {
+  closeProductModal();
+  if (!cart[productId]) {
+    addToCart(productId);
+  }
+  openDrawer();
+  setTimeout(() => {
+    document.getElementById('f-name').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.getElementById('f-name').focus();
+  }, 300);
+}
+
